@@ -5,6 +5,7 @@ import os
 import logging
 from time import timezone
 import pandas as pd
+import io
 import requests
 import minio
 from snowflake.connector.pandas_tools import write_pandas
@@ -74,21 +75,22 @@ def process_payroll_data(minio_client, bucket_name, object_name="payroll_data.cs
             if len(data) < limit:
                 break
             offset += limit
-        df = pd.DataFrame(all_data)
-        local_csv_path = os.path.join(LOG_DIR, object_name)
-        df.to_csv(local_csv_path, index=False)
-        logger.info(f"Payroll data saved locally as {local_csv_path}")
 
-        # Upload to MinIO
-        with open(local_csv_path, "rb") as file_data:
-            file_stat = os.stat(local_csv_path)
-            minio_client.put_object(
-                bucket_name,
-                object_name,
-                file_data,
-                file_stat.st_size,
-                content_type="text/csv"
-            )
+        df = pd.DataFrame(all_data)
+        csv_buffer = io.StringIO()
+        df.to_csv(csv_buffer, index=False)
+        csv_bytes = io.BytesIO(csv_buffer.getvalue().encode())
+        csv_size = csv_bytes.getbuffer().nbytes
+
+        # Upload to MinIO from memory
+        csv_bytes.seek(0)
+        minio_client.put_object(
+            bucket_name,
+            object_name,
+            csv_bytes,
+            csv_size,
+            content_type="text/csv"
+        )
         logger.info(f"Payroll data uploaded to MinIO bucket '{bucket_name}' as '{object_name}'")
 
         # If Snowflake connection and schema info provided, load to Snowflake
@@ -126,29 +128,28 @@ def process_job_posting_data(minio_client, bucket_name, object_name="job_posting
     QUERY_URL = os.getenv('JOB_POSTING_ENDPOINT')
     try:
         logger.info(f"Downloading job posting CSV from {QUERY_URL}")
+
         response = requests.get(QUERY_URL)
         response.raise_for_status()
-        local_csv_path = os.path.join(LOG_DIR, object_name)
-        with open(local_csv_path, "wb") as f:
-            f.write(response.content)
-        logger.info(f"Job posting CSV saved locally as {local_csv_path}")
+        csv_bytes = io.BytesIO(response.content)
+        csv_size = len(response.content)
 
-        # Upload to MinIO
-        with open(local_csv_path, "rb") as file_data:
-            file_stat = os.stat(local_csv_path)
-            minio_client.put_object(
-                bucket_name,
-                object_name,
-                file_data,
-                file_stat.st_size,
-                content_type="text/csv"
-            )
+        # Upload to MinIO from memory
+        csv_bytes.seek(0)
+        minio_client.put_object(
+            bucket_name,
+            object_name,
+            csv_bytes,
+            csv_size,
+            content_type="text/csv"
+        )
         logger.info(f"Job posting data uploaded to MinIO bucket '{bucket_name}' as '{object_name}'")
 
         # If Snowflake connection and schema info provided, load to Snowflake
         if conn and snowflake_db and snowflake_schema:
             logger.info(f"Loading job posting data from CSV to Snowflake: {snowflake_db}.{snowflake_schema}")
-            df = pd.read_csv(local_csv_path)
+            csv_bytes.seek(0)
+            df = pd.read_csv(csv_bytes)
             df["SOURCE_FILE"] = object_name
             df["LOAD_TIMESTAMP_UTC"] = datetime.datetime.now(datetime.timezone.utc)
             df.columns = df.columns.str.upper()
