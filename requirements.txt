@@ -1,0 +1,12 @@
+minio
+dbt-snowflake
+pandas
+requests
+python-dotenv
+snowflake-connector-python[pandas]
+dbt-core
+dbt-snowflake
+apache-airflow[cncf.kubernetes,celery,postgres,google,amazon,s3,http,slack,statsd,jdbc,ssh]==2.9.2 
+apache-airflow-providers-cncf-kubernetes 
+apache-airflow-providers-postgres
+polars

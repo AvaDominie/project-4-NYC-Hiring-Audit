@@ -1,0 +1,460 @@
+2025-08-15 10:17:10,080 - INFO - Logger initialized successfully
+2025-08-15 10:17:10,080 - INFO - Connected to MinIO successfully.
+2025-08-15 10:17:10,081 - INFO - Snowflake Connector for Python Version: 3.17.1, Python Version: 3.13.3, Platform: Windows-10-10.0.19045-SP0
+2025-08-15 10:17:10,081 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-15 10:17:10,410 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x000001F0A7605400>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network')': /metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com
+2025-08-15 10:17:10,411 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x000001F0A7601E50>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network')': /metadata/instance?api-version=2021-02-01
+2025-08-15 10:17:10,425 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x000001F0A76025D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /
+2025-08-15 10:17:10,425 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x000001F0A760E060>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /computeMetadata/v1/instance/service-accounts/default/email
+2025-08-15 10:17:12,189 - INFO - Connected to Snowflake successfully.
+2025-08-15 10:17:14,221 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0A78EE660>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /p4bronze?location=
+2025-08-15 10:17:16,663 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0A8033750>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /p4bronze?location=
+2025-08-15 10:17:19,513 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0A8033890>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /p4bronze?location=
+2025-08-15 10:17:23,148 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0A760D6E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /p4bronze?location=
+2025-08-15 10:17:28,380 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0A760D810>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /p4bronze?location=
+2025-08-15 16:26:51,261 - INFO - Logger initialized successfully
+2025-08-15 16:26:51,262 - INFO - Connected to MinIO successfully.
+2025-08-15 16:26:51,263 - INFO - Snowflake Connector for Python Version: 3.17.1, Python Version: 3.10.18, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.31
+2025-08-15 16:26:51,264 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-15 16:26:51,407 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x71dfd715d7e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/instance?api-version=2021-02-01
+2025-08-15 16:26:51,408 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x71dfd7171540>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com
+2025-08-15 16:26:51,447 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x71dfd715cf10>: Failed to establish a new connection: [Errno -2] Name or service not known')': /
+2025-08-15 16:26:51,448 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x71dfd7172a10>: Failed to establish a new connection: [Errno -2] Name or service not known')': /computeMetadata/v1/instance/service-accounts/default/email
+2025-08-15 16:26:52,485 - INFO - Connected to Snowflake successfully.
+2025-08-15 16:26:52,681 - INFO - Snowflake connection closed.
+2025-08-15 16:33:11,977 - INFO - Logger initialized successfully
+2025-08-15 16:33:11,977 - INFO - Connected to MinIO successfully.
+2025-08-15 16:33:11,991 - INFO - Downloading payroll data from https://data.cityofnewyork.us/resource/k397-673e.json
+2025-08-15 16:33:12,483 - INFO - Payroll data saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/payroll_data.csv
+2025-08-15 16:33:12,515 - INFO - Payroll data uploaded to MinIO bucket 'project4' as 'payroll_data.csv'
+2025-08-15 16:33:12,517 - INFO - Snowflake Connector for Python Version: 3.17.1, Python Version: 3.10.18, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.31
+2025-08-15 16:33:12,518 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-15 16:33:12,651 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x73e3e8ca9c30>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/instance?api-version=2021-02-01
+2025-08-15 16:33:12,653 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x73e3e8ce02b0>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com
+2025-08-15 16:33:12,686 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x73e3e8c9f820>: Failed to establish a new connection: [Errno -2] Name or service not known')': /
+2025-08-15 16:33:12,687 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x73e3e8c9ecb0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /computeMetadata/v1/instance/service-accounts/default/email
+2025-08-15 16:33:14,288 - INFO - Connected to Snowflake successfully.
+2025-08-15 16:33:14,293 - INFO - Processing payroll_data.csv from Minio bucket.
+2025-08-15 16:33:14,302 - INFO - Data from payroll_data.csv read successfully.
+2025-08-15 16:33:14,341 - ERROR - Unexpected error for payroll_data.csv: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.
+2025-08-15 16:33:14,527 - INFO - Snowflake connection closed.
+2025-08-15 16:38:34,292 - INFO - Logger initialized successfully
+2025-08-15 16:38:34,293 - INFO - Connected to MinIO successfully.
+2025-08-15 16:38:34,312 - INFO - Downloading payroll data from https://data.cityofnewyork.us/resource/k397-673e.json
+2025-08-15 16:38:34,813 - INFO - Payroll data saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/payroll_data.csv
+2025-08-15 16:38:34,850 - INFO - Payroll data uploaded to MinIO bucket 'project4' as 'payroll_data.csv'
+2025-08-15 16:38:34,853 - INFO - Snowflake Connector for Python Version: 3.17.1, Python Version: 3.10.18, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.31
+2025-08-15 16:38:34,854 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-15 16:38:34,987 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x73be77b19090>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com
+2025-08-15 16:38:34,989 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x73be77b2dc30>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/instance?api-version=2021-02-01
+2025-08-15 16:38:35,020 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x73be77b194b0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /computeMetadata/v1/instance/service-accounts/default/email
+2025-08-15 16:38:35,021 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x73be77b18610>: Failed to establish a new connection: [Errno -2] Name or service not known')': /
+2025-08-15 16:38:35,627 - INFO - Connected to Snowflake successfully.
+2025-08-15 16:38:35,627 - INFO - Downloading payroll data from https://data.cityofnewyork.us/resource/k397-673e.json
+2025-08-15 16:38:36,083 - INFO - Payroll data saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/payroll_data.csv
+2025-08-15 16:38:36,123 - INFO - Payroll data uploaded to MinIO bucket 'project4' as 'payroll_data.csv'
+2025-08-15 16:38:36,123 - INFO - Loading payroll data from CSV to Snowflake: PROJECT3_DB.BRONZE
+2025-08-15 16:38:36,127 - ERROR - Unexpected error: write_pandas() missing 1 required positional argument: 'table_name'
+2025-08-15 16:38:36,298 - INFO - Snowflake connection closed.
+2025-08-15 16:48:19,740 - INFO - Logger initialized successfully
+2025-08-15 16:48:19,741 - INFO - Connected to MinIO successfully.
+2025-08-15 16:48:19,755 - INFO - Downloading payroll data from https://data.cityofnewyork.us/resource/k397-673e.json
+2025-08-15 16:48:20,297 - INFO - Payroll data saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/payroll_data.csv
+2025-08-15 16:48:20,326 - INFO - Payroll data uploaded to MinIO bucket 'project4' as 'payroll_data.csv'
+2025-08-15 16:48:20,327 - INFO - Snowflake Connector for Python Version: 3.17.1, Python Version: 3.10.18, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.31
+2025-08-15 16:48:20,328 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-15 16:48:20,457 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7fb3788e9090>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com
+2025-08-15 16:48:20,461 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7fb3788fa410>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/instance?api-version=2021-02-01
+2025-08-15 16:48:20,493 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7fb3788ea6e0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /
+2025-08-15 16:48:20,494 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7fb3788e92d0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /computeMetadata/v1/instance/service-accounts/default/email
+2025-08-15 16:48:21,158 - INFO - Connected to Snowflake successfully.
+2025-08-15 16:48:21,158 - INFO - Downloading payroll data from https://data.cityofnewyork.us/resource/k397-673e.json
+2025-08-15 16:48:21,506 - INFO - Payroll data saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/payroll_data.csv
+2025-08-15 16:48:21,556 - INFO - Payroll data uploaded to MinIO bucket 'project4' as 'payroll_data.csv'
+2025-08-15 16:48:21,556 - INFO - Loading payroll data from CSV to Snowflake: PROJECT3_DB.BRONZE
+2025-08-15 16:48:21,558 - ERROR - Unexpected error: write_pandas() missing 1 required positional argument: 'table_name'
+2025-08-15 16:48:21,753 - INFO - Snowflake connection closed.
+2025-08-15 18:18:19,453 - INFO - Logger initialized successfully
+2025-08-15 18:18:19,454 - INFO - Connected to MinIO successfully.
+2025-08-15 18:18:19,473 - INFO - payroll_data.csv already exists in MinIO bucket.
+2025-08-15 18:18:19,474 - INFO - Snowflake Connector for Python Version: 3.17.1, Python Version: 3.10.18, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.31
+2025-08-15 18:18:19,476 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-15 18:18:19,651 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7e7b915f8340>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/instance?api-version=2021-02-01
+2025-08-15 18:18:19,653 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7e7b91588ac0>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com
+2025-08-15 18:18:19,696 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7e7b9158a890>: Failed to establish a new connection: [Errno -2] Name or service not known')': /
+2025-08-15 18:18:19,697 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7e7b9158ace0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /computeMetadata/v1/instance/service-accounts/default/email
+2025-08-15 18:18:20,283 - INFO - Connected to Snowflake successfully.
+2025-08-15 18:18:20,284 - INFO - Downloading payroll data from https://data.cityofnewyork.us/resource/k397-673e.json
+2025-08-15 18:18:20,735 - INFO - Payroll data saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/payroll_data.csv
+2025-08-15 18:18:20,783 - INFO - Payroll data uploaded to MinIO bucket 'project4' as 'payroll_data.csv'
+2025-08-15 18:18:20,784 - INFO - Loading payroll data from CSV to Snowflake: PROJECT3_DB.BRONZE
+2025-08-15 18:18:20,787 - ERROR - Unexpected error: write_pandas() missing 1 required positional argument: 'table_name'
+2025-08-15 18:18:21,005 - INFO - Snowflake connection closed.
+2025-08-15 18:20:25,545 - INFO - Logger initialized successfully
+2025-08-15 18:20:25,546 - INFO - Connected to MinIO successfully.
+2025-08-15 18:20:25,561 - INFO - payroll_data.csv already exists in MinIO bucket.
+2025-08-15 18:20:25,562 - INFO - Snowflake Connector for Python Version: 3.17.1, Python Version: 3.10.18, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.31
+2025-08-15 18:20:25,563 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-15 18:20:25,718 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x70293c70ecb0>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/instance?api-version=2021-02-01
+2025-08-15 18:20:25,718 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x70293c66c490>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com
+2025-08-15 18:20:25,769 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x70293c66e320>: Failed to establish a new connection: [Errno -2] Name or service not known')': /
+2025-08-15 18:20:25,770 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x70293c66ee90>: Failed to establish a new connection: [Errno -2] Name or service not known')': /computeMetadata/v1/instance/service-accounts/default/email
+2025-08-15 18:20:26,426 - INFO - Connected to Snowflake successfully.
+2025-08-15 18:20:26,427 - INFO - Downloading payroll data from https://data.cityofnewyork.us/resource/k397-673e.json
+2025-08-15 18:20:26,829 - INFO - Payroll data saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/payroll_data.csv
+2025-08-15 18:20:26,868 - INFO - Payroll data uploaded to MinIO bucket 'project4' as 'payroll_data.csv'
+2025-08-15 18:20:26,869 - INFO - Loading payroll data from CSV to Snowflake: PROJECT3_DB.BRONZE
+2025-08-15 18:20:26,871 - ERROR - Unexpected error: write_pandas() missing 1 required positional argument: 'table_name'
+2025-08-15 18:20:26,873 - INFO - Downloading job posting CSV from https://data.cityofnewyork.us/resource/kpav-sd4t.csv
+2025-08-15 18:20:28,975 - INFO - Job posting CSV saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/job_posting_data.csv
+2025-08-15 18:20:29,294 - INFO - Job posting data uploaded to MinIO bucket 'project4' as 'job_posting_data.csv'
+2025-08-15 18:20:29,294 - INFO - Loading job posting data from CSV to Snowflake: PROJECT3_DB.BRONZE
+2025-08-15 18:20:29,444 - ERROR - Unexpected error: write_pandas() missing 1 required positional argument: 'table_name'
+2025-08-15 18:20:29,673 - INFO - Snowflake connection closed.
+2025-08-15 18:36:55,511 - INFO - Logger initialized successfully
+2025-08-15 18:36:55,512 - INFO - Connected to MinIO successfully.
+2025-08-15 18:36:55,529 - INFO - Downloading payroll data from https://data.cityofnewyork.us/resource/k397-673e.json
+2025-08-15 18:36:55,920 - INFO - Payroll data saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/payroll_data.csv
+2025-08-15 18:36:55,953 - INFO - Payroll data uploaded to MinIO bucket 'project4' as 'payroll_data.csv'
+2025-08-15 18:36:55,954 - INFO - Snowflake Connector for Python Version: 3.17.1, Python Version: 3.10.18, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.31
+2025-08-15 18:36:55,955 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-15 18:36:56,148 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x77bf6f3fd600>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/instance?api-version=2021-02-01
+2025-08-15 18:36:56,151 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x77bf6f3c2590>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com
+2025-08-15 18:36:56,194 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x77bf6f3c3460>: Failed to establish a new connection: [Errno -2] Name or service not known')': /computeMetadata/v1/instance/service-accounts/default/email
+2025-08-15 18:36:56,195 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x77bf6f3c2140>: Failed to establish a new connection: [Errno -2] Name or service not known')': /
+2025-08-15 18:36:56,823 - INFO - Connected to Snowflake successfully.
+2025-08-15 18:36:56,823 - INFO - Downloading payroll data from https://data.cityofnewyork.us/resource/k397-673e.json
+2025-08-15 18:36:57,110 - INFO - Payroll data saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/payroll_data.csv
+2025-08-15 18:36:57,149 - INFO - Payroll data uploaded to MinIO bucket 'project4' as 'payroll_data.csv'
+2025-08-15 18:36:57,149 - INFO - Loading payroll data from CSV to Snowflake: PROJECT3_DB.BRONZE
+2025-08-15 18:36:57,151 - ERROR - Unexpected error: write_pandas() missing 1 required positional argument: 'table_name'
+2025-08-15 18:36:57,153 - INFO - Downloading job posting CSV from https://data.cityofnewyork.us/resource/kpav-sd4t.csv
+2025-08-15 18:36:58,814 - INFO - Job posting CSV saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/job_posting_data.csv
+2025-08-15 18:36:59,176 - INFO - Job posting data uploaded to MinIO bucket 'project4' as 'job_posting_data.csv'
+2025-08-15 18:36:59,176 - INFO - Loading job posting data from CSV to Snowflake: PROJECT3_DB.BRONZE
+2025-08-15 18:36:59,323 - ERROR - Unexpected error: write_pandas() missing 1 required positional argument: 'table_name'
+2025-08-15 18:36:59,542 - INFO - Snowflake connection closed.
+2025-08-15 18:43:14,316 - INFO - Logger initialized successfully
+2025-08-15 18:43:14,317 - INFO - Connected to MinIO successfully.
+2025-08-15 18:43:14,348 - INFO - payroll_data.csv already exists in MinIO bucket.
+2025-08-15 18:43:14,349 - INFO - Snowflake Connector for Python Version: 3.17.1, Python Version: 3.10.18, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.31
+2025-08-15 18:43:14,350 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-15 18:43:14,575 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7be3e9c6ef80>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/instance?api-version=2021-02-01
+2025-08-15 18:43:14,578 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7be3e9c6c190>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com
+2025-08-15 18:43:14,599 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7be3e9c6ffa0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /
+2025-08-15 18:43:14,600 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7be3e9c6de40>: Failed to establish a new connection: [Errno -2] Name or service not known')': /computeMetadata/v1/instance/service-accounts/default/email
+2025-08-15 18:43:15,267 - INFO - Connected to Snowflake successfully.
+2025-08-15 18:43:15,269 - INFO - Downloading payroll data from https://data.cityofnewyork.us/resource/k397-673e.json using $limit and $offset for all rows
+2025-08-15 18:43:15,271 - INFO - Fetching rows 0 to 50000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=0
+2025-08-15 18:43:17,863 - INFO - Fetching rows 50000 to 100000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=50000
+2025-08-15 18:43:20,632 - INFO - Fetching rows 100000 to 150000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=100000
+2025-08-15 18:43:23,385 - INFO - Fetching rows 150000 to 200000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=150000
+2025-08-15 18:43:27,184 - INFO - Fetching rows 200000 to 250000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=200000
+2025-08-15 18:43:29,818 - INFO - Fetching rows 250000 to 300000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=250000
+2025-08-15 18:43:32,143 - INFO - Fetching rows 300000 to 350000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=300000
+2025-08-15 18:43:34,333 - INFO - Fetching rows 350000 to 400000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=350000
+2025-08-15 18:43:37,416 - INFO - Fetching rows 400000 to 450000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=400000
+2025-08-15 18:43:39,707 - INFO - Fetching rows 450000 to 500000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=450000
+2025-08-15 18:43:42,236 - INFO - Fetching rows 500000 to 550000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=500000
+2025-08-15 18:43:44,343 - INFO - Fetching rows 550000 to 600000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=550000
+2025-08-15 18:43:46,853 - INFO - Fetching rows 600000 to 650000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=600000
+2025-08-15 18:43:49,551 - INFO - Fetching rows 650000 to 700000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=650000
+2025-08-15 18:43:52,029 - INFO - Fetching rows 700000 to 750000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=700000
+2025-08-15 18:43:54,228 - INFO - Fetching rows 750000 to 800000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=750000
+2025-08-15 18:43:57,590 - INFO - Fetching rows 800000 to 850000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=800000
+2025-08-15 18:44:00,245 - INFO - Fetching rows 850000 to 900000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=850000
+2025-08-15 18:44:04,188 - INFO - Fetching rows 900000 to 950000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=900000
+2025-08-15 18:44:07,671 - INFO - Fetching rows 950000 to 1000000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=950000
+2025-08-15 18:44:11,938 - INFO - Fetching rows 1000000 to 1050000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1000000
+2025-08-15 18:44:14,629 - INFO - Fetching rows 1050000 to 1100000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1050000
+2025-08-15 18:44:17,528 - INFO - Fetching rows 1100000 to 1150000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1100000
+2025-08-15 18:44:21,131 - INFO - Fetching rows 1150000 to 1200000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1150000
+2025-08-15 18:44:24,188 - INFO - Fetching rows 1200000 to 1250000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1200000
+2025-08-15 18:44:29,160 - INFO - Fetching rows 1250000 to 1300000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1250000
+2025-08-15 18:44:32,594 - INFO - Fetching rows 1300000 to 1350000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1300000
+2025-08-15 18:44:36,667 - INFO - Fetching rows 1350000 to 1400000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1350000
+2025-08-15 18:44:39,687 - INFO - Fetching rows 1400000 to 1450000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1400000
+2025-08-15 18:44:43,002 - INFO - Fetching rows 1450000 to 1500000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1450000
+2025-08-15 18:44:46,204 - INFO - Fetching rows 1500000 to 1550000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1500000
+2025-08-15 18:44:49,728 - INFO - Fetching rows 1550000 to 1600000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1550000
+2025-08-15 18:44:52,511 - INFO - Fetching rows 1600000 to 1650000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1600000
+2025-08-15 18:44:55,646 - INFO - Fetching rows 1650000 to 1700000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1650000
+2025-08-15 18:45:00,572 - INFO - Fetching rows 1700000 to 1750000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1700000
+2025-08-15 18:45:03,881 - INFO - Fetching rows 1750000 to 1800000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1750000
+2025-08-15 18:45:08,338 - INFO - Fetching rows 1800000 to 1850000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1800000
+2025-08-15 18:45:12,502 - INFO - Fetching rows 1850000 to 1900000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1850000
+2025-08-15 18:45:18,300 - INFO - Fetching rows 1900000 to 1950000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1900000
+2025-08-15 18:45:21,746 - INFO - Fetching rows 1950000 to 2000000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1950000
+2025-08-15 18:45:24,937 - INFO - Fetching rows 2000000 to 2050000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2000000
+2025-08-15 18:45:29,756 - INFO - Fetching rows 2050000 to 2100000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2050000
+2025-08-15 18:45:35,574 - INFO - Fetching rows 2100000 to 2150000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2100000
+2025-08-15 18:45:41,020 - INFO - Fetching rows 2150000 to 2200000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2150000
+2025-08-15 18:45:45,881 - INFO - Fetching rows 2200000 to 2250000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2200000
+2025-08-15 18:45:50,330 - INFO - Fetching rows 2250000 to 2300000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2250000
+2025-08-15 18:45:55,864 - INFO - Fetching rows 2300000 to 2350000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2300000
+2025-08-15 18:46:01,839 - INFO - Fetching rows 2350000 to 2400000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2350000
+2025-08-15 18:46:06,860 - INFO - Fetching rows 2400000 to 2450000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2400000
+2025-08-15 18:46:11,722 - INFO - Fetching rows 2450000 to 2500000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2450000
+2025-08-15 18:46:16,729 - INFO - Fetching rows 2500000 to 2550000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2500000
+2025-08-15 18:46:21,042 - INFO - Fetching rows 2550000 to 2600000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2550000
+2025-08-15 18:46:25,739 - INFO - Fetching rows 2600000 to 2650000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2600000
+2025-08-15 18:46:31,158 - INFO - Fetching rows 2650000 to 2700000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2650000
+2025-08-15 18:46:35,628 - INFO - Fetching rows 2700000 to 2750000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2700000
+2025-08-15 18:46:40,258 - INFO - Fetching rows 2750000 to 2800000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2750000
+2025-08-15 18:46:44,877 - INFO - Fetching rows 2800000 to 2850000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2800000
+2025-08-15 18:46:49,202 - INFO - Fetching rows 2850000 to 2900000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2850000
+2025-08-15 18:46:53,339 - INFO - Fetching rows 2900000 to 2950000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2900000
+2025-08-15 18:46:57,865 - INFO - Fetching rows 2950000 to 3000000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2950000
+2025-08-15 18:47:05,200 - INFO - Fetching rows 3000000 to 3050000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3000000
+2025-08-15 18:47:09,715 - INFO - Fetching rows 3050000 to 3100000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3050000
+2025-08-15 18:47:14,238 - INFO - Fetching rows 3100000 to 3150000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3100000
+2025-08-15 18:47:18,269 - INFO - Fetching rows 3150000 to 3200000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3150000
+2025-08-15 18:47:23,316 - INFO - Fetching rows 3200000 to 3250000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3200000
+2025-08-15 18:47:27,603 - INFO - Fetching rows 3250000 to 3300000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3250000
+2025-08-15 18:47:33,176 - INFO - Fetching rows 3300000 to 3350000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3300000
+2025-08-15 18:47:39,580 - INFO - Fetching rows 3350000 to 3400000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3350000
+2025-08-15 18:47:44,019 - INFO - Fetching rows 3400000 to 3450000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3400000
+2025-08-15 18:47:48,771 - INFO - Fetching rows 3450000 to 3500000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3450000
+2025-08-15 18:47:53,652 - INFO - Fetching rows 3500000 to 3550000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3500000
+2025-08-15 18:47:58,860 - INFO - Fetching rows 3550000 to 3600000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3550000
+2025-08-15 18:48:05,513 - INFO - Fetching rows 3600000 to 3650000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3600000
+2025-08-15 18:48:11,014 - INFO - Fetching rows 3650000 to 3700000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3650000
+2025-08-15 18:48:19,122 - INFO - Fetching rows 3700000 to 3750000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3700000
+2025-08-15 18:48:24,694 - INFO - Fetching rows 3750000 to 3800000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3750000
+2025-08-15 18:48:30,218 - INFO - Fetching rows 3800000 to 3850000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3800000
+2025-08-15 18:48:37,194 - INFO - Fetching rows 3850000 to 3900000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3850000
+2025-08-15 18:48:43,263 - INFO - Fetching rows 3900000 to 3950000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3900000
+2025-08-15 18:48:48,966 - INFO - Fetching rows 3950000 to 4000000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3950000
+2025-08-15 18:48:58,363 - INFO - Fetching rows 4000000 to 4050000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4000000
+2025-08-15 18:49:04,218 - INFO - Fetching rows 4050000 to 4100000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4050000
+2025-08-15 18:49:11,324 - INFO - Fetching rows 4100000 to 4150000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4100000
+2025-08-15 18:49:16,278 - INFO - Fetching rows 4150000 to 4200000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4150000
+2025-08-15 18:49:21,396 - INFO - Fetching rows 4200000 to 4250000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4200000
+2025-08-15 18:49:27,501 - INFO - Fetching rows 4250000 to 4300000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4250000
+2025-08-15 18:49:32,224 - INFO - Fetching rows 4300000 to 4350000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4300000
+2025-08-15 18:49:38,936 - INFO - Fetching rows 4350000 to 4400000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4350000
+2025-08-15 18:49:44,359 - INFO - Fetching rows 4400000 to 4450000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4400000
+2025-08-15 18:49:50,492 - INFO - Fetching rows 4450000 to 4500000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4450000
+2025-08-15 18:49:57,177 - INFO - Fetching rows 4500000 to 4550000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4500000
+2025-08-15 18:50:03,220 - INFO - Fetching rows 4550000 to 4600000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4550000
+2025-08-15 18:50:10,516 - INFO - Fetching rows 4600000 to 4650000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4600000
+2025-08-15 18:50:16,868 - INFO - Fetching rows 4650000 to 4700000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4650000
+2025-08-15 18:50:23,476 - INFO - Fetching rows 4700000 to 4750000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4700000
+2025-08-15 18:50:29,626 - INFO - Fetching rows 4750000 to 4800000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4750000
+2025-08-15 18:50:35,419 - INFO - Fetching rows 4800000 to 4850000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4800000
+2025-08-15 18:50:42,773 - INFO - Fetching rows 4850000 to 4900000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4850000
+2025-08-15 18:50:49,304 - INFO - Fetching rows 4900000 to 4950000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4900000
+2025-08-15 18:50:55,360 - INFO - Fetching rows 4950000 to 5000000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4950000
+2025-08-15 18:51:01,827 - INFO - Fetching rows 5000000 to 5050000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5000000
+2025-08-15 18:51:07,936 - INFO - Fetching rows 5050000 to 5100000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5050000
+2025-08-15 18:51:15,660 - INFO - Fetching rows 5100000 to 5150000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5100000
+2025-08-15 18:51:22,015 - INFO - Fetching rows 5150000 to 5200000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5150000
+2025-08-15 18:51:28,895 - INFO - Fetching rows 5200000 to 5250000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5200000
+2025-08-15 18:51:35,881 - INFO - Fetching rows 5250000 to 5300000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5250000
+2025-08-15 18:51:43,464 - INFO - Fetching rows 5300000 to 5350000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5300000
+2025-08-15 18:51:51,210 - INFO - Fetching rows 5350000 to 5400000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5350000
+2025-08-15 18:51:57,465 - INFO - Fetching rows 5400000 to 5450000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5400000
+2025-08-15 18:52:04,488 - INFO - Fetching rows 5450000 to 5500000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5450000
+2025-08-15 18:52:11,724 - INFO - Fetching rows 5500000 to 5550000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5500000
+2025-08-15 18:52:18,393 - INFO - Fetching rows 5550000 to 5600000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5550000
+2025-08-15 18:52:25,186 - INFO - Fetching rows 5600000 to 5650000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5600000
+2025-08-15 18:52:32,723 - INFO - Fetching rows 5650000 to 5700000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5650000
+2025-08-15 18:52:39,593 - INFO - Fetching rows 5700000 to 5750000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5700000
+2025-08-15 18:52:48,465 - INFO - Fetching rows 5750000 to 5800000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5750000
+2025-08-15 18:52:55,823 - INFO - Fetching rows 5800000 to 5850000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5800000
+2025-08-15 18:53:08,707 - INFO - Fetching rows 5850000 to 5900000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5850000
+2025-08-15 18:53:16,721 - INFO - Fetching rows 5900000 to 5950000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5900000
+2025-08-15 18:53:24,303 - INFO - Fetching rows 5950000 to 6000000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5950000
+2025-08-15 18:53:30,806 - INFO - Fetching rows 6000000 to 6050000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=6000000
+2025-08-15 18:53:37,665 - INFO - Fetching rows 6050000 to 6100000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=6050000
+2025-08-15 18:53:46,839 - INFO - Fetching rows 6100000 to 6150000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=6100000
+2025-08-15 18:54:01,523 - INFO - Fetching rows 6150000 to 6200000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=6150000
+2025-08-15 18:54:12,120 - INFO - Fetching rows 6200000 to 6250000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=6200000
+2025-08-15 18:56:28,689 - INFO - Payroll data saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/payroll_data.csv
+2025-08-15 18:57:06,503 - INFO - Payroll data uploaded to MinIO bucket 'project4' as 'payroll_data.csv'
+2025-08-15 18:57:06,504 - INFO - Loading payroll data from CSV to Snowflake: PROJECT3_DB.BRONZE
+2025-08-15 18:57:06,919 - ERROR - Unexpected error: write_pandas() missing 1 required positional argument: 'table_name'
+2025-08-15 18:57:14,166 - INFO - Downloading job posting CSV from https://data.cityofnewyork.us/resource/kpav-sd4t.csv
+2025-08-15 18:57:15,059 - INFO - Job posting CSV saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/job_posting_data.csv
+2025-08-15 18:57:15,373 - INFO - Job posting data uploaded to MinIO bucket 'project4' as 'job_posting_data.csv'
+2025-08-15 18:57:15,373 - INFO - Loading job posting data from CSV to Snowflake: PROJECT3_DB.BRONZE
+2025-08-15 18:57:15,575 - ERROR - Unexpected error: write_pandas() missing 1 required positional argument: 'table_name'
+2025-08-15 18:57:16,673 - INFO - Snowflake connection closed.
+2025-08-15 19:04:24,208 - INFO - Logger initialized successfully
+2025-08-15 19:04:24,210 - INFO - Connected to MinIO successfully.
+2025-08-15 19:04:24,246 - INFO - payroll_data.csv already exists in MinIO bucket.
+2025-08-15 19:04:24,250 - INFO - Snowflake Connector for Python Version: 3.17.1, Python Version: 3.10.18, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.31
+2025-08-15 19:04:24,253 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-15 19:04:25,104 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x70e0cc502a70>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com
+2025-08-15 19:04:25,114 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x70e0cc503a60>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/instance?api-version=2021-02-01
+2025-08-15 19:04:25,131 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x70e0cc503880>: Failed to establish a new connection: [Errno -2] Name or service not known')': /computeMetadata/v1/instance/service-accounts/default/email
+2025-08-15 19:04:25,132 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x70e0cc502e60>: Failed to establish a new connection: [Errno -2] Name or service not known')': /
+2025-08-15 19:04:26,890 - INFO - Connected to Snowflake successfully.
+2025-08-15 19:04:26,890 - INFO - Downloading job posting CSV from https://data.cityofnewyork.us/resource/kpav-sd4t.csv
+2025-08-15 19:04:28,407 - INFO - Job posting CSV saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/job_posting_data.csv
+2025-08-15 19:04:28,949 - INFO - Job posting data uploaded to MinIO bucket 'project4' as 'job_posting_data.csv'
+2025-08-15 19:04:28,950 - INFO - Loading job posting data from CSV to Snowflake: PROJECT3_DB.BRONZE
+2025-08-15 19:04:29,155 - ERROR - Unexpected error: write_pandas() missing 1 required positional argument: 'table_name'
+2025-08-15 19:04:29,158 - INFO - Reading Excel file from C:\Users\avado\Downloads\Jobs_NYC_Postings_20250814.xlsx
+2025-08-15 19:04:29,161 - ERROR - Failed to process or upload lighthouse data: [Errno 2] No such file or directory: 'C:\\Users\\avado\\Downloads\\Jobs_NYC_Postings_20250814.xlsx'
+2025-08-15 19:04:29,467 - INFO - Snowflake connection closed.
+2025-08-15 19:04:53,676 - INFO - Logger initialized successfully
+2025-08-15 19:04:53,677 - INFO - Connected to MinIO successfully.
+2025-08-15 19:04:53,693 - INFO - payroll_data.csv already exists in MinIO bucket.
+2025-08-15 19:04:53,694 - INFO - Snowflake Connector for Python Version: 3.17.1, Python Version: 3.10.18, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.31
+2025-08-15 19:04:53,695 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-15 19:04:53,889 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7383ee10a3e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com
+2025-08-15 19:04:53,893 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7383ee10b040>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/instance?api-version=2021-02-01
+2025-08-15 19:04:53,929 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7383ee10ac20>: Failed to establish a new connection: [Errno -2] Name or service not known')': /
+2025-08-15 19:04:53,930 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7383ee10a5f0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /computeMetadata/v1/instance/service-accounts/default/email
+2025-08-15 19:04:54,919 - INFO - Connected to Snowflake successfully.
+2025-08-15 19:04:54,922 - INFO - Downloading job posting CSV from https://data.cityofnewyork.us/resource/kpav-sd4t.csv
+2025-08-15 19:04:55,880 - INFO - Job posting CSV saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/job_posting_data.csv
+2025-08-15 19:04:56,581 - INFO - Job posting data uploaded to MinIO bucket 'project4' as 'job_posting_data.csv'
+2025-08-15 19:04:56,582 - INFO - Loading job posting data from CSV to Snowflake: PROJECT3_DB.BRONZE
+2025-08-15 19:04:56,959 - ERROR - Unexpected error: write_pandas() missing 1 required positional argument: 'table_name'
+2025-08-15 19:04:56,964 - INFO - Reading Excel file from C:\Users\avado\Downloads\Jobs_NYC_Postings_20250814.xlsx
+2025-08-15 19:04:56,967 - ERROR - Failed to process or upload lighthouse data: [Errno 2] No such file or directory: 'C:\\Users\\avado\\Downloads\\Jobs_NYC_Postings_20250814.xlsx'
+2025-08-15 19:04:57,274 - INFO - Snowflake connection closed.
+2025-08-15 19:06:30,499 - INFO - Logger initialized successfully
+2025-08-15 19:06:30,500 - INFO - Connected to MinIO successfully.
+2025-08-15 19:06:30,517 - INFO - payroll_data.csv already exists in MinIO bucket.
+2025-08-15 19:06:30,518 - INFO - Snowflake Connector for Python Version: 3.17.1, Python Version: 3.10.18, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.31
+2025-08-15 19:06:30,519 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-15 19:06:30,711 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x78d43c41b0d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com
+2025-08-15 19:06:30,712 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x78d43c41bdc0>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/instance?api-version=2021-02-01
+2025-08-15 19:06:30,761 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x78d43c41b9a0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /computeMetadata/v1/instance/service-accounts/default/email
+2025-08-15 19:06:30,762 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x78d43c41ac80>: Failed to establish a new connection: [Errno -2] Name or service not known')': /
+2025-08-15 19:06:31,370 - INFO - Connected to Snowflake successfully.
+2025-08-15 19:06:31,370 - INFO - Downloading job posting CSV from https://data.cityofnewyork.us/resource/kpav-sd4t.csv
+2025-08-15 19:06:32,462 - INFO - Job posting CSV saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/job_posting_data.csv
+2025-08-15 19:06:32,768 - INFO - Job posting data uploaded to MinIO bucket 'project4' as 'job_posting_data.csv'
+2025-08-15 19:06:32,768 - INFO - Loading job posting data from CSV to Snowflake: PROJECT3_DB.BRONZE
+2025-08-15 19:06:33,008 - ERROR - Unexpected error: write_pandas() missing 1 required positional argument: 'table_name'
+2025-08-15 19:06:33,010 - INFO - Reading Excel file from C:/Users/avado/Downloads/Jobs_NYC_Postings_20250814.xlsx
+2025-08-15 19:06:33,012 - ERROR - Failed to process or upload lighthouse data: [Errno 2] No such file or directory: 'C:/Users/avado/Downloads/Jobs_NYC_Postings_20250814.xlsx'
+2025-08-15 19:06:33,195 - INFO - Snowflake connection closed.
+2025-08-15 19:12:25,116 - INFO - Logger initialized successfully
+2025-08-15 19:12:25,117 - INFO - Connected to MinIO successfully.
+2025-08-15 19:12:25,133 - INFO - payroll_data.csv already exists in MinIO bucket.
+2025-08-15 19:12:25,134 - INFO - Snowflake Connector for Python Version: 3.17.1, Python Version: 3.10.18, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.31
+2025-08-15 19:12:25,136 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-15 19:12:25,444 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x713f82cddcc0>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/instance?api-version=2021-02-01
+2025-08-15 19:12:25,450 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x713f82cdd870>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com
+2025-08-15 19:12:25,500 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x713f82cdfac0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /computeMetadata/v1/instance/service-accounts/default/email
+2025-08-15 19:12:25,501 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x713f82cde860>: Failed to establish a new connection: [Errno -2] Name or service not known')': /
+2025-08-15 19:12:26,167 - INFO - Connected to Snowflake successfully.
+2025-08-15 19:12:26,168 - INFO - Downloading job posting CSV from https://data.cityofnewyork.us/resource/kpav-sd4t.csv
+2025-08-15 19:12:27,652 - INFO - Job posting CSV saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/job_posting_data.csv
+2025-08-15 19:12:28,019 - INFO - Job posting data uploaded to MinIO bucket 'project4' as 'job_posting_data.csv'
+2025-08-15 19:12:28,020 - INFO - Loading job posting data from CSV to Snowflake: PROJECT3_DB.BRONZE
+2025-08-15 19:12:28,175 - ERROR - Unexpected error: write_pandas() missing 1 required positional argument: 'table_name'
+2025-08-15 19:12:28,177 - INFO - Reading Excel file from C://Users//avado//Downloads//Jobs_NYC_Postings_20250814.xlsx
+2025-08-15 19:12:28,262 - ERROR - Failed to process or upload lighthouse data: [Errno 2] No such file or directory: '/workspaces/project-4-NYC-Hiring-Audit/C://Users//avado//Downloads//Jobs_NYC_Postings_20250814.xlsx'
+2025-08-15 19:12:28,444 - INFO - Snowflake connection closed.
+2025-08-15 19:14:43,129 - INFO - Logger initialized successfully
+2025-08-15 19:15:09,905 - INFO - Connected to MinIO successfully.
+2025-08-15 19:15:09,933 - INFO - payroll_data.csv already exists in MinIO bucket.
+2025-08-15 19:15:09,934 - INFO - Snowflake Connector for Python Version: 3.17.1, Python Version: 3.10.18, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.31
+2025-08-15 19:15:09,936 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-15 19:15:10,636 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7d3a4abb6b00>: Failed to establish a new connection: [Errno -2] Name or service not known')': /
+2025-08-15 19:15:10,641 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7d3a4abb6590>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/instance?api-version=2021-02-01
+2025-08-15 19:15:10,646 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7d3a4abb7c40>: Failed to establish a new connection: [Errno -2] Name or service not known')': /computeMetadata/v1/instance/service-accounts/default/email
+2025-08-15 19:15:10,652 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7d3a4abb74c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com
+2025-08-15 19:15:11,338 - INFO - Connected to Snowflake successfully.
+2025-08-15 19:15:11,339 - INFO - Downloading job posting CSV from https://data.cityofnewyork.us/resource/kpav-sd4t.csv
+2025-08-15 19:15:12,745 - INFO - Job posting CSV saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/job_posting_data.csv
+2025-08-15 19:15:13,203 - INFO - Job posting data uploaded to MinIO bucket 'project4' as 'job_posting_data.csv'
+2025-08-15 19:15:13,204 - INFO - Loading job posting data from CSV to Snowflake: PROJECT3_DB.BRONZE
+2025-08-15 19:15:13,377 - ERROR - Unexpected error: write_pandas() missing 1 required positional argument: 'table_name'
+2025-08-15 19:15:13,381 - INFO - Reading Excel file from C://Users//avado//Downloads//Jobs_NYC_Postings_20250814.xlsx
+2025-08-15 19:15:13,485 - ERROR - Failed to process or upload lighthouse data: [Errno 2] No such file or directory: '/workspaces/project-4-NYC-Hiring-Audit/C://Users//avado//Downloads//Jobs_NYC_Postings_20250814.xlsx'
+2025-08-15 19:15:13,714 - INFO - Snowflake connection closed.
+2025-08-15 19:15:33,579 - INFO - Logger initialized successfully
+2025-08-15 19:15:33,580 - INFO - Connected to MinIO successfully.
+2025-08-15 19:15:33,603 - INFO - payroll_data.csv already exists in MinIO bucket.
+2025-08-15 19:15:33,605 - INFO - Snowflake Connector for Python Version: 3.17.1, Python Version: 3.10.18, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.31
+2025-08-15 19:15:33,606 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-15 19:15:33,978 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x738baa1c30a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/instance?api-version=2021-02-01
+2025-08-15 19:15:33,980 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x738baa1c3340>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com
+2025-08-15 19:15:34,018 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x738baa2797e0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /
+2025-08-15 19:15:34,020 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x738baa1c2b60>: Failed to establish a new connection: [Errno -2] Name or service not known')': /computeMetadata/v1/instance/service-accounts/default/email
+2025-08-15 19:15:34,592 - INFO - Connected to Snowflake successfully.
+2025-08-15 19:15:34,593 - INFO - Downloading job posting CSV from https://data.cityofnewyork.us/resource/kpav-sd4t.csv
+2025-08-15 19:15:35,531 - INFO - Job posting CSV saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/job_posting_data.csv
+2025-08-15 19:15:36,142 - INFO - Job posting data uploaded to MinIO bucket 'project4' as 'job_posting_data.csv'
+2025-08-15 19:15:36,144 - INFO - Loading job posting data from CSV to Snowflake: PROJECT3_DB.BRONZE
+2025-08-15 19:15:36,363 - ERROR - Unexpected error: write_pandas() missing 1 required positional argument: 'table_name'
+2025-08-15 19:15:36,367 - INFO - Reading Excel file from C://Users//avado//Downloads//Jobs_NYC_Postings_20250814.xlsx
+2025-08-15 19:15:36,499 - ERROR - Failed to process or upload lighthouse data: [Errno 2] No such file or directory: '/workspaces/project-4-NYC-Hiring-Audit/C://Users//avado//Downloads//Jobs_NYC_Postings_20250814.xlsx'
+2025-08-15 19:15:36,741 - INFO - Snowflake connection closed.
+2025-08-15 19:16:31,234 - INFO - Logger initialized successfully
+2025-08-15 19:16:53,008 - INFO - Connected to MinIO successfully.
+2025-08-15 19:17:18,819 - INFO - payroll_data.csv already exists in MinIO bucket.
+2025-08-15 19:17:35,142 - INFO - Snowflake Connector for Python Version: 3.17.1, Python Version: 3.10.18, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.31
+2025-08-15 19:17:35,143 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-15 19:17:35,717 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x78e69aff26b0>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com
+2025-08-15 19:17:35,738 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x78e69aff3700>: Failed to establish a new connection: [Errno -2] Name or service not known')': /
+2025-08-15 19:17:35,739 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x78e69864c220>: Failed to establish a new connection: [Errno -2] Name or service not known')': /computeMetadata/v1/instance/service-accounts/default/email
+2025-08-15 19:17:35,740 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x78e69aff3eb0>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/instance?api-version=2021-02-01
+2025-08-15 19:17:39,934 - INFO - Connected to Snowflake successfully.
+2025-08-15 19:17:54,899 - INFO - Downloading job posting CSV from https://data.cityofnewyork.us/resource/kpav-sd4t.csv
+2025-08-15 19:17:56,124 - INFO - Job posting CSV saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/job_posting_data.csv
+2025-08-15 19:17:56,920 - INFO - Job posting data uploaded to MinIO bucket 'project4' as 'job_posting_data.csv'
+2025-08-15 19:17:56,921 - INFO - Loading job posting data from CSV to Snowflake: PROJECT3_DB.BRONZE
+2025-08-15 19:17:57,641 - ERROR - Unexpected error: write_pandas() missing 1 required positional argument: 'table_name'
+2025-08-15 19:19:15,212 - INFO - Reading Excel file from C://Users//avado//Downloads//Jobs_NYC_Postings_20250814.xlsx
+2025-08-15 19:19:15,416 - ERROR - Failed to process or upload lighthouse data: [Errno 2] No such file or directory: '/workspaces/project-4-NYC-Hiring-Audit/C://Users//avado//Downloads//Jobs_NYC_Postings_20250814.xlsx'
+2025-08-15 19:19:15,792 - INFO - Snowflake connection closed.
+2025-08-15 19:19:33,562 - INFO - Logger initialized successfully
+2025-08-15 19:19:37,778 - INFO - Connected to MinIO successfully.
+2025-08-15 19:19:37,823 - INFO - payroll_data.csv already exists in MinIO bucket.
+2025-08-15 19:19:37,832 - INFO - Snowflake Connector for Python Version: 3.17.1, Python Version: 3.10.18, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.31
+2025-08-15 19:19:37,840 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-15 19:19:38,492 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x73b8ccabf340>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/instance?api-version=2021-02-01
+2025-08-15 19:19:38,501 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x73b8ccabf2e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com
+2025-08-15 19:19:38,502 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x73b8ccabeb30>: Failed to establish a new connection: [Errno -2] Name or service not known')': /
+2025-08-15 19:19:38,503 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x73b8ccabf6d0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /computeMetadata/v1/instance/service-accounts/default/email
+2025-08-15 19:19:39,377 - INFO - Connected to Snowflake successfully.
+2025-08-15 19:19:39,382 - INFO - Downloading job posting CSV from https://data.cityofnewyork.us/resource/kpav-sd4t.csv
+2025-08-15 19:19:40,703 - INFO - Job posting CSV saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/job_posting_data.csv
+2025-08-15 19:19:41,081 - INFO - Job posting data uploaded to MinIO bucket 'project4' as 'job_posting_data.csv'
+2025-08-15 19:19:41,082 - INFO - Loading job posting data from CSV to Snowflake: PROJECT3_DB.BRONZE
+2025-08-15 19:19:41,276 - ERROR - Unexpected error: write_pandas() missing 1 required positional argument: 'table_name'
+2025-08-15 19:19:47,767 - INFO - Reading Excel file from C://Users//avado//Downloads//Jobs_NYC_Postings_20250814.xlsx
+2025-08-15 19:21:35,129 - ERROR - Failed to process or upload lighthouse data: [Errno 2] No such file or directory: '/workspaces/project-4-NYC-Hiring-Audit/C://Users//avado//Downloads//Jobs_NYC_Postings_20250814.xlsx'
+2025-08-15 19:21:35,392 - INFO - Snowflake connection closed.
+2025-08-15 19:21:47,195 - INFO - Logger initialized successfully
+2025-08-15 19:21:50,305 - INFO - Connected to MinIO successfully.
+2025-08-15 19:21:50,336 - INFO - payroll_data.csv already exists in MinIO bucket.
+2025-08-15 19:21:50,337 - INFO - Snowflake Connector for Python Version: 3.17.1, Python Version: 3.10.18, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.31
+2025-08-15 19:21:50,339 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-15 19:21:50,774 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7e7509ac0be0>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/instance?api-version=2021-02-01
+2025-08-15 19:21:50,785 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7e74fa1841c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com
+2025-08-15 19:21:50,800 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7e7509ac1a80>: Failed to establish a new connection: [Errno -2] Name or service not known')': /
+2025-08-15 19:21:50,801 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7e74fa1844c0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /computeMetadata/v1/instance/service-accounts/default/email
+2025-08-15 19:21:51,507 - INFO - Connected to Snowflake successfully.
+2025-08-15 19:21:51,508 - INFO - Downloading job posting CSV from https://data.cityofnewyork.us/resource/kpav-sd4t.csv
+2025-08-15 19:21:53,344 - INFO - Job posting CSV saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/job_posting_data.csv
+2025-08-15 19:21:53,677 - INFO - Job posting data uploaded to MinIO bucket 'project4' as 'job_posting_data.csv'
+2025-08-15 19:21:53,677 - INFO - Loading job posting data from CSV to Snowflake: PROJECT3_DB.BRONZE
+2025-08-15 19:21:53,829 - ERROR - Unexpected error: write_pandas() missing 1 required positional argument: 'table_name'
+2025-08-15 19:21:57,712 - INFO - Reading Excel file from C:\Users\avado\Downloads\Jobs_NYC_Postings_20250814.xlsx
+2025-08-15 19:22:32,812 - INFO - Logger initialized successfully
+2025-08-15 19:22:56,559 - INFO - Connected to MinIO successfully.
+2025-08-15 19:22:56,591 - INFO - payroll_data.csv already exists in MinIO bucket.
+2025-08-15 19:22:56,594 - INFO - Snowflake Connector for Python Version: 3.17.1, Python Version: 3.10.18, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.31
+2025-08-15 19:22:56,596 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-15 19:22:57,323 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7f95b0fead70>: Failed to establish a new connection: [Errno -2] Name or service not known')': /computeMetadata/v1/instance/service-accounts/default/email
+2025-08-15 19:22:57,320 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7f95b06285b0>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/instance?api-version=2021-02-01
+2025-08-15 19:22:57,336 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7f95b0febaf0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /
+2025-08-15 19:22:57,502 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7f95b0628df0>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com
+2025-08-15 19:22:58,339 - INFO - Connected to Snowflake successfully.
+2025-08-15 19:22:58,340 - INFO - Downloading job posting CSV from https://data.cityofnewyork.us/resource/kpav-sd4t.csv
+2025-08-15 19:22:59,827 - INFO - Job posting CSV saved locally as /workspaces/project-4-NYC-Hiring-Audit/src/logs/job_posting_data.csv
+2025-08-15 19:23:00,228 - INFO - Job posting data uploaded to MinIO bucket 'project4' as 'job_posting_data.csv'
+2025-08-15 19:23:00,229 - INFO - Loading job posting data from CSV to Snowflake: PROJECT3_DB.BRONZE
+2025-08-15 19:23:00,433 - ERROR - Unexpected error: write_pandas() missing 1 required positional argument: 'table_name'
+2025-08-15 19:23:04,151 - INFO - Reading Excel file from C:\Users\avado\Downloads\Jobs_NYC_Postings_20250814.xlsx
+2025-08-15 19:23:24,755 - ERROR - Failed to process or upload lighthouse data: [Errno 2] No such file or directory: 'C:\\Users\\avado\\Downloads\\Jobs_NYC_Postings_20250814.xlsx'
+2025-08-15 19:23:25,013 - INFO - Snowflake connection closed.
