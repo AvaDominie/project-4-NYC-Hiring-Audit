@@ -102,6 +102,7 @@ def process_payroll_data(minio_client, bucket_name, object_name="payroll_data.cs
             success, nchunks, nrows, _ = write_pandas(
                 conn=conn,
                 df=df,
+                table_name="PAYROLL_DATA",  # Change as needed
                 database=snowflake_db,
                 schema=snowflake_schema,
                 auto_create_table=True,
@@ -110,7 +111,7 @@ def process_payroll_data(minio_client, bucket_name, object_name="payroll_data.cs
                 use_logical_type=True
             )
             if success:
-                logger.info(f"Data successfully written to Snowflake table {snowflake_db}.{snowflake_schema} - {nrows} rows in {nchunks} chunks.")
+                logger.info(f"Data successfully written to Snowflake table {snowflake_db}.{snowflake_schema}.PAYROLL_DATA - {nrows} rows in {nchunks} chunks.")
             else:
                 logger.error(f"Failed to write data to Snowflake table with write_pandas.")
     except S3Error as e:
@@ -156,6 +157,7 @@ def process_job_posting_data(minio_client, bucket_name, object_name="job_posting
             success, nchunks, nrows, _ = write_pandas(
                 conn=conn,
                 df=df,
+                table_name="JOB_POSTING_DATA",  # Change as needed
                 database=snowflake_db,
                 schema=snowflake_schema,
                 auto_create_table=True,
@@ -164,7 +166,7 @@ def process_job_posting_data(minio_client, bucket_name, object_name="job_posting
                 use_logical_type=True
             )
             if success:
-                logger.info(f"Data successfully written to Snowflake table {snowflake_db}.{snowflake_schema} - {nrows} rows in {nchunks} chunks.")
+                logger.info(f"Data successfully written to Snowflake table {snowflake_db}.{snowflake_schema}.JOB_POSTING_DATA - {nrows} rows in {nchunks} chunks.")
             else:
                 logger.error(f"Failed to write data to Snowflake table with write_pandas.")
     except S3Error as e:
@@ -174,35 +176,34 @@ def process_job_posting_data(minio_client, bucket_name, object_name="job_posting
     except Exception as e:
         logger.error(f"Unexpected error: {e}")
 
-# Lighthouse Data: XLSX file transformed into a csv and dropped into minIO
 
 
+# Lighthouse Data: XLS file transformed into a csv and dropped into minIO
 def process_lighthouse_data(minio_client, bucket_name, local_xlsx_path, object_name="lighthouse_data.csv"):
-    """
-    Convert a local XLSX file to CSV and upload it to MinIO.
-    Args:
-        minio_client: MinIO client instance
-        bucket_name: MinIO bucket name
-        local_xlsx_path: Path to the local XLSX file
-        object_name: Name for the CSV file in MinIO
-    """
-    try:
-        logger.info(f"Reading Excel file from {local_xlsx_path}")
-        df = pd.read_excel(local_xlsx_path)
-        local_csv_path = os.path.join(LOG_DIR, object_name)
-        df.to_csv(local_csv_path, index=False)
-        logger.info(f"Converted Excel to CSV at {local_csv_path}")
 
-        # Upload to MinIO
-        with open(local_csv_path, "rb") as file_data:
-            file_stat = os.stat(local_csv_path)
-            minio_client.put_object(
-                bucket_name,
-                object_name,
-                file_data,
-                file_stat.st_size,
-                content_type="text/csv"
-            )
+    try:
+        logger.info(f"Reading file from {local_xlsx_path}")
+        if not os.path.exists(local_xlsx_path):
+            raise FileNotFoundError(f"File not found: {local_xlsx_path}")
+        if local_xlsx_path.endswith('.csv'):
+            df = pd.read_csv(local_xlsx_path)
+        else:
+            df = pd.read_excel(local_xlsx_path)
+
+        csv_buffer = io.StringIO()
+        df.to_csv(csv_buffer, index=False)
+        csv_bytes = io.BytesIO(csv_buffer.getvalue().encode())
+        csv_size = csv_bytes.getbuffer().nbytes
+
+        # Upload to MinIO from memory
+        csv_bytes.seek(0)
+        minio_client.put_object(
+            bucket_name,
+            object_name,
+            csv_bytes,
+            csv_size,
+            content_type="text/csv"
+        )
         logger.info(f"Lighthouse data uploaded to MinIO bucket '{bucket_name}' as '{object_name}'")
     except Exception as e:
         logger.error(f"Failed to process or upload lighthouse data: {e}")
@@ -268,14 +269,14 @@ def main():
 
 
     # Optionally, process and load payroll data to Snowflake
-    # process_payroll_data(
-    #     minio_client,
-    #     MINIO_BUCKET_NAME,
-    #     "payroll_data.csv",
-    #     conn=conn,
-    #     snowflake_db=SNOWFLAKE_DATABASE,
-    #     snowflake_schema=SNOWFLAKE_SCHEMA_BRONZE
-    # )
+    process_payroll_data(
+        minio_client,
+        MINIO_BUCKET_NAME,
+        "payroll_data.csv",
+        conn=conn,
+        snowflake_db=SNOWFLAKE_DATABASE,
+        snowflake_schema=SNOWFLAKE_SCHEMA_BRONZE
+    )
 
     # Process and load job posting data to MinIO and Snowflake
     process_job_posting_data(
