@@ -179,23 +179,31 @@ def process_job_posting_data(minio_client, bucket_name, object_name="job_posting
 
 
 # Lighthouse Data: XLS file transformed into a csv and dropped into minIO
-def process_lighthouse_data(minio_client, bucket_name, local_xlsx_path, object_name="lighthouse_data.csv"):
+
+# Only process the 'Top Posted Job Titles' sheet from the Lighthouse Excel file, clean columns, and upload to MinIO
+def process_lighthouse_data(minio_client, bucket_name, local_xlsx_path, object_name="lighthouse_job_postings_job_titles.csv", conn=None, snowflake_db=None, snowflake_schema=None):
 
     try:
         logger.info(f"Reading file from {local_xlsx_path}")
         if not os.path.exists(local_xlsx_path):
             raise FileNotFoundError(f"File not found: {local_xlsx_path}")
-        if local_xlsx_path.endswith('.csv'):
-            df = pd.read_csv(local_xlsx_path)
-        else:
-            df = pd.read_excel(local_xlsx_path)
-
+        # Only process the 'Job Postings Job Titles' sheet
+        sheet_name = "Job Postings Job Titles"
+        df = pd.read_excel(local_xlsx_path, sheet_name=sheet_name)
+        # Clean column names: strip, lower, replace spaces and special chars with _
+        df.columns = (
+            df.columns.str.strip()
+            .str.lower()
+            .str.replace(' ', '_')
+            .str.replace(r'[^a-z0-9_]', '', regex=True)
+        )
+        # Drop index column if present
+        if 'unnamed_0' in df.columns:
+            df = df.drop(columns=['unnamed_0'])
         csv_buffer = io.StringIO()
         df.to_csv(csv_buffer, index=False)
         csv_bytes = io.BytesIO(csv_buffer.getvalue().encode())
         csv_size = csv_bytes.getbuffer().nbytes
-
-        # Upload to MinIO from memory
         csv_bytes.seek(0)
         minio_client.put_object(
             bucket_name,
@@ -204,16 +212,80 @@ def process_lighthouse_data(minio_client, bucket_name, local_xlsx_path, object_n
             csv_size,
             content_type="text/csv"
         )
-        logger.info(f"Lighthouse data uploaded to MinIO bucket '{bucket_name}' as '{object_name}'")
+        logger.info(f"Lighthouse sheet '{sheet_name}' uploaded to MinIO bucket '{bucket_name}' as '{object_name}'")
+        # Immediately load to Snowflake if connection info provided
+        if conn and snowflake_db and snowflake_schema:
+            try:
+                csv_bytes.seek(0)
+                df = pd.read_csv(csv_bytes)
+                df["SOURCE_FILE"] = object_name
+                df["LOAD_TIMESTAMP_UTC"] = datetime.datetime.now(datetime.timezone.utc)
+                df.columns = df.columns.str.upper()
+                success, nchunks, nrows, _ = write_pandas(
+                    conn=conn,
+                    df=df,
+                    table_name="LIGHTHOUSE_JOB_POSTINGS_JOB_TITLES",
+                    database=snowflake_db,
+                    schema=snowflake_schema,
+                    auto_create_table=True,
+                    overwrite=True,
+                    quote_identifiers=True,
+                    use_logical_type=True
+                )
+                if success:
+                    logger.info(f"Data from {object_name} written to Snowflake table {snowflake_db}.{snowflake_schema}.LIGHTHOUSE_JOB_POSTINGS_JOB_TITLES - {nrows} rows in {nchunks} chunks.")
+                else:
+                    logger.error(f"Failed to write {object_name} to Snowflake table.")
+            except Exception as e:
+                logger.error(f"Error loading {object_name} to Snowflake: {e}")
     except Exception as e:
         logger.error(f"Failed to process or upload lighthouse data: {e}")
 
 
 
+# Utility: Load all CSVs from MinIO into Snowflake
+def load_all_minio_to_snowflake(minio_client, bucket_name, conn, snowflake_db, snowflake_schema):
+    """
+    For each CSV in the MinIO bucket, load it into a Snowflake table named after the file (without extension).
+    """
+    for obj in minio_client.list_objects(bucket_name, recursive=True):
+        if obj.object_name.lower().endswith('.csv'):
+            logger.info(f"Processing {obj.object_name} from MinIO for Snowflake upload.")
+            try:
+                minio_response = minio_client.get_object(obj.bucket_name, obj.object_name)
+                csv_bytes = BytesIO(minio_response.read())
+                minio_response.close()
+                minio_response.release_conn()
+                csv_bytes.seek(0)
+                df = pd.read_csv(csv_bytes)
+                table_name = os.path.splitext(os.path.basename(obj.object_name))[0].upper()
+                df["SOURCE_FILE"] = obj.object_name
+                df["LOAD_TIMESTAMP_UTC"] = datetime.datetime.now(datetime.timezone.utc)
+                df.columns = df.columns.str.upper()
+                success, nchunks, nrows, _ = write_pandas(
+                    conn=conn,
+                    df=df,
+                    table_name=table_name,
+                    database=snowflake_db,
+                    schema=snowflake_schema,
+                    auto_create_table=True,
+                    overwrite=True,
+                    quote_identifiers=True,
+                    use_logical_type=True
+                )
+                if success:
+                    logger.info(f"Data from {obj.object_name} written to Snowflake table {snowflake_db}.{snowflake_schema}.{table_name} - {nrows} rows in {nchunks} chunks.")
+                else:
+                    logger.error(f"Failed to write {obj.object_name} to Snowflake table {table_name}.")
+            except Exception as e:
+                logger.error(f"Error processing {obj.object_name}: {e}")
+
+                
+
+
 # Main function to orchestrate the data processing
 # Connect to snowflake
 def main(): 
-    
     MINIO_EXTERNAL_URL = os.getenv('MINIO_EXTERNAL_URL')
     MINIO_BUCKET_NAME = os.getenv('MINIO_BUCKET_NAME')
     MINIO_ACCESS_KEY = os.getenv('MINIO_ACCESS_KEY')
@@ -242,8 +314,8 @@ def main():
         logger.error(f"Error connecting to MinIO: {e}")
         raise
 
-    # Download and upload payroll data to MinIO if not already present
 
+    # Download and upload payroll data to MinIO if not already present
     found = False
     for obj in minio_client.list_objects(MINIO_BUCKET_NAME, recursive=True):
         if obj.object_name == "payroll_data.csv":
@@ -266,36 +338,40 @@ def main():
     sf_cursor = conn.cursor()
     logger.info("Connected to Snowflake successfully.")
 
+    # Explicitly set database and schema context
+    sf_cursor.execute(f"USE DATABASE {SNOWFLAKE_DATABASE}")
+    sf_cursor.execute(f"USE SCHEMA {SNOWFLAKE_SCHEMA_BRONZE}")
 
+    # Load all CSVs from MinIO into Snowflake
+    load_all_minio_to_snowflake(
+        minio_client,
+        MINIO_BUCKET_NAME,
+        conn,
+        SNOWFLAKE_DATABASE,
+        SNOWFLAKE_SCHEMA_BRONZE
+    )
 
     # Optionally, process and load payroll data to Snowflake
     process_payroll_data(
         minio_client,
         MINIO_BUCKET_NAME,
-        "payroll_data.csv",
-        conn=conn,
-        snowflake_db=SNOWFLAKE_DATABASE,
-        snowflake_schema=SNOWFLAKE_SCHEMA_BRONZE
+        "payroll_data.csv"
     )
 
-    # Process and load job posting data to MinIO and Snowflake
+    # Process and load job posting data to MinIO only
     process_job_posting_data(
         minio_client,
         MINIO_BUCKET_NAME,
-        "job_posting_data.csv",
-        conn=conn,
-        snowflake_db=SNOWFLAKE_DATABASE,
-        snowflake_schema=SNOWFLAKE_SCHEMA_BRONZE
+        "job_posting_data.csv"
     )
 
-    # Process and upload Lighthouse Excel data to MinIO
-    # QUERY_URL = os.getenv('JOB_POSTING_ENDPOINT'
+    # Process and upload Lighthouse Excel data to MinIO only
     LIGHTHOUSE_XLSX_PATH = os.getenv('LIGHTHOUSE_XLSX_PATH')
     process_lighthouse_data(
         minio_client,
         MINIO_BUCKET_NAME,
         LIGHTHOUSE_XLSX_PATH,
-        object_name="lighthouse_data.csv"
+        object_name="lighthouse_job_postings_job_titles.csv"
     )
     if 'sf_cursor' in locals() and sf_cursor:
         sf_cursor.close()
