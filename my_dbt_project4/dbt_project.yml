@@ -1,0 +1,25 @@
+name: 'my_dbt_project4'
+version: '1.0.0'
+
+profile: 'my_dbt_project4'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:         # directories to be removed by `dbt clean`
+  - "target"
+  - "dbt_packages"
+
+models:
+  my_dbt_project4:
+    silver:
+      +materialized: incremental
+      +schema: SILVER
+    gold:
+      +materialized: incremental
+      +schema: GOLD
+      +on_schema_change: 'fail'
