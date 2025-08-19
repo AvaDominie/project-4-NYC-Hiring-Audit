@@ -1482,3 +1482,181 @@
 2025-08-18 19:17:26,417 - INFO - Processing job_posting_data.csv from MinIO for Snowflake upload.
 2025-08-18 19:17:30,645 - INFO - Data from job_posting_data.csv written to Snowflake table PROJECT4_DB.BRONZE.JOB_POSTING_DATA - 1000 rows in 1 chunks.
 2025-08-18 19:17:30,646 - INFO - Processing lighthouse_job_postings_job_titles.csv from MinIO for Snowflake upload.
+2025-08-18 20:25:06,665 - INFO - Logger initialized successfully
+2025-08-18 20:25:06,666 - INFO - Connected to MinIO successfully.
+2025-08-18 20:25:06,691 - INFO - payroll_data.csv already exists in MinIO bucket.
+2025-08-18 20:25:06,692 - INFO - Snowflake Connector for Python Version: 3.17.1, Python Version: 3.10.18, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.31
+2025-08-18 20:25:06,692 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-18 20:25:06,875 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7fcc35909cc0>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com
+2025-08-18 20:25:06,880 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7fcc359098a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/instance?api-version=2021-02-01
+2025-08-18 20:25:06,949 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7fcc3590a110>: Failed to establish a new connection: [Errno -2] Name or service not known')': /
+2025-08-18 20:25:06,950 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7fcc37aa95a0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /computeMetadata/v1/instance/service-accounts/default/email
+2025-08-18 20:25:07,734 - INFO - Connected to Snowflake successfully.
+2025-08-18 20:25:08,196 - INFO - Processing job_posting_data.csv from MinIO for Snowflake upload.
+2025-08-18 20:25:15,861 - INFO - Data from job_posting_data.csv written to Snowflake table PROJECT4_DB.BRONZE.JOB_POSTING_DATA - 1000 rows in 1 chunks.
+2025-08-18 20:25:15,862 - INFO - Processing lighthouse_job_postings_job_titles.csv from MinIO for Snowflake upload.
+2025-08-18 20:25:18,647 - INFO - Data from lighthouse_job_postings_job_titles.csv written to Snowflake table PROJECT4_DB.BRONZE.LIGHTHOUSE_JOB_POSTINGS_JOB_TITLES - 52 rows in 1 chunks.
+2025-08-18 20:25:18,647 - INFO - Processing payroll_data.csv from MinIO for Snowflake upload.
+2025-08-18 20:26:39,093 - INFO - Logger initialized successfully
+2025-08-18 20:26:39,094 - INFO - Connected to MinIO successfully.
+2025-08-18 20:26:39,114 - INFO - payroll_data.csv already exists in MinIO bucket.
+2025-08-18 20:26:39,115 - INFO - Snowflake Connector for Python Version: 3.17.1, Python Version: 3.10.18, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.31
+2025-08-18 20:26:39,116 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-18 20:26:39,354 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x79058d105bd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com
+2025-08-18 20:26:39,355 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x79058f2a48e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/instance?api-version=2021-02-01
+2025-08-18 20:26:39,405 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x79058d105390>: Failed to establish a new connection: [Errno -2] Name or service not known')': /
+2025-08-18 20:26:39,406 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x79058d105780>: Failed to establish a new connection: [Errno -2] Name or service not known')': /computeMetadata/v1/instance/service-accounts/default/email
+2025-08-18 20:26:39,965 - INFO - Connected to Snowflake successfully.
+2025-08-18 20:26:40,323 - INFO - Processing job_posting_data.csv from MinIO for Snowflake upload.
+2025-08-18 20:26:44,904 - INFO - Data from job_posting_data.csv written to Snowflake table PROJECT4_DB.BRONZE.JOB_POSTING_DATA - 1000 rows in 1 chunks.
+2025-08-18 20:26:44,905 - INFO - Processing lighthouse_job_postings_job_titles.csv from MinIO for Snowflake upload.
+2025-08-18 20:26:47,129 - INFO - Data from lighthouse_job_postings_job_titles.csv written to Snowflake table PROJECT4_DB.BRONZE.LIGHTHOUSE_JOB_POSTINGS_JOB_TITLES - 52 rows in 1 chunks.
+2025-08-18 20:26:47,130 - INFO - Processing payroll_data.csv from MinIO for Snowflake upload.
+2025-08-18 20:30:01,747 - INFO - Logger initialized successfully
+2025-08-18 20:30:01,748 - INFO - Connected to MinIO successfully.
+2025-08-18 20:30:01,764 - INFO - payroll_data.csv already exists in MinIO bucket.
+2025-08-18 20:30:01,765 - INFO - Snowflake Connector for Python Version: 3.17.1, Python Version: 3.10.18, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.31
+2025-08-18 20:30:01,766 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-18 20:30:01,967 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x758010421390>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/instance?api-version=2021-02-01
+2025-08-18 20:30:01,968 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x758010421bd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com
+2025-08-18 20:30:02,023 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x758010422440>: Failed to establish a new connection: [Errno -2] Name or service not known')': /computeMetadata/v1/instance/service-accounts/default/email
+2025-08-18 20:30:02,023 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPConnection object at 0x7580104217e0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /
+2025-08-18 20:30:02,736 - INFO - Connected to Snowflake successfully.
+2025-08-18 20:30:03,036 - INFO - Processing job_posting_data.csv from MinIO for Snowflake upload.
+2025-08-18 20:30:09,618 - INFO - Data from job_posting_data.csv written to Snowflake table PROJECT4_DB.BRONZE.JOB_POSTING_DATA - 1000 rows in 1 chunks.
+2025-08-18 20:30:09,618 - INFO - Processing lighthouse_job_postings_job_titles.csv from MinIO for Snowflake upload.
+2025-08-18 20:30:13,356 - INFO - Data from lighthouse_job_postings_job_titles.csv written to Snowflake table PROJECT4_DB.BRONZE.LIGHTHOUSE_JOB_POSTINGS_JOB_TITLES - 52 rows in 1 chunks.
+2025-08-18 20:30:13,356 - INFO - Processing payroll_data.csv from MinIO for Snowflake upload.
+2025-08-18 20:33:30,885 - INFO - Data from payroll_data.csv written to Snowflake table PROJECT4_DB.BRONZE.PAYROLL_DATA - 6225611 rows in 1 chunks.
+2025-08-18 20:33:31,366 - INFO - Downloading payroll data from https://data.cityofnewyork.us/resource/k397-673e.json using $limit and $offset for all rows
+2025-08-18 20:33:31,366 - INFO - Fetching rows 0 to 50000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=0
+2025-08-18 20:33:32,955 - INFO - Fetching rows 50000 to 100000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=50000
+2025-08-18 20:33:35,936 - INFO - Fetching rows 100000 to 150000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=100000
+2025-08-18 20:33:38,633 - INFO - Fetching rows 150000 to 200000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=150000
+2025-08-18 20:33:47,925 - INFO - Fetching rows 200000 to 250000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=200000
+2025-08-18 20:33:51,090 - INFO - Fetching rows 250000 to 300000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=250000
+2025-08-18 20:33:52,990 - INFO - Fetching rows 300000 to 350000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=300000
+2025-08-18 20:33:57,227 - INFO - Fetching rows 350000 to 400000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=350000
+2025-08-18 20:33:58,870 - INFO - Fetching rows 400000 to 450000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=400000
+2025-08-18 20:34:02,501 - INFO - Fetching rows 450000 to 500000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=450000
+2025-08-18 20:34:05,411 - INFO - Fetching rows 500000 to 550000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=500000
+2025-08-18 20:34:08,285 - INFO - Fetching rows 550000 to 600000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=550000
+2025-08-18 20:34:10,997 - INFO - Fetching rows 600000 to 650000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=600000
+2025-08-18 20:34:17,292 - INFO - Fetching rows 650000 to 700000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=650000
+2025-08-18 20:34:20,034 - INFO - Fetching rows 700000 to 750000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=700000
+2025-08-18 20:34:21,934 - INFO - Fetching rows 750000 to 800000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=750000
+2025-08-18 20:34:23,906 - INFO - Fetching rows 800000 to 850000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=800000
+2025-08-18 20:34:26,206 - INFO - Fetching rows 850000 to 900000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=850000
+2025-08-18 20:34:33,538 - INFO - Fetching rows 900000 to 950000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=900000
+2025-08-18 20:34:36,040 - INFO - Fetching rows 950000 to 1000000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=950000
+2025-08-18 20:34:39,137 - INFO - Fetching rows 1000000 to 1050000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1000000
+2025-08-18 20:34:41,553 - INFO - Fetching rows 1050000 to 1100000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1050000
+2025-08-18 20:34:43,893 - INFO - Fetching rows 1100000 to 1150000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1100000
+2025-08-18 20:34:46,347 - INFO - Fetching rows 1150000 to 1200000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1150000
+2025-08-18 20:34:49,383 - INFO - Fetching rows 1200000 to 1250000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1200000
+2025-08-18 20:34:51,930 - INFO - Fetching rows 1250000 to 1300000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1250000
+2025-08-18 20:34:54,365 - INFO - Fetching rows 1300000 to 1350000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1300000
+2025-08-18 20:34:59,542 - INFO - Fetching rows 1350000 to 1400000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1350000
+2025-08-18 20:35:03,618 - INFO - Fetching rows 1400000 to 1450000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1400000
+2025-08-18 20:35:06,950 - INFO - Fetching rows 1450000 to 1500000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1450000
+2025-08-18 20:35:09,891 - INFO - Fetching rows 1500000 to 1550000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1500000
+2025-08-18 20:35:12,961 - INFO - Fetching rows 1550000 to 1600000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1550000
+2025-08-18 20:35:17,332 - INFO - Fetching rows 1600000 to 1650000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1600000
+2025-08-18 20:35:19,878 - INFO - Fetching rows 1650000 to 1700000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1650000
+2025-08-18 20:35:23,450 - INFO - Fetching rows 1700000 to 1750000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1700000
+2025-08-18 20:35:27,413 - INFO - Fetching rows 1750000 to 1800000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1750000
+2025-08-18 20:35:31,376 - INFO - Fetching rows 1800000 to 1850000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1800000
+2025-08-18 20:35:35,806 - INFO - Fetching rows 1850000 to 1900000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1850000
+2025-08-18 20:35:39,950 - INFO - Fetching rows 1900000 to 1950000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1900000
+2025-08-18 20:35:42,959 - INFO - Fetching rows 1950000 to 2000000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=1950000
+2025-08-18 20:35:46,781 - INFO - Fetching rows 2000000 to 2050000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2000000
+2025-08-18 20:35:51,277 - INFO - Fetching rows 2050000 to 2100000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2050000
+2025-08-18 20:35:54,476 - INFO - Fetching rows 2100000 to 2150000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2100000
+2025-08-18 20:35:58,235 - INFO - Fetching rows 2150000 to 2200000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2150000
+2025-08-18 20:36:01,979 - INFO - Fetching rows 2200000 to 2250000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2200000
+2025-08-18 20:36:08,749 - INFO - Fetching rows 2250000 to 2300000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2250000
+2025-08-18 20:36:16,939 - INFO - Fetching rows 2300000 to 2350000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2300000
+2025-08-18 20:36:21,048 - INFO - Fetching rows 2350000 to 2400000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2350000
+2025-08-18 20:36:24,922 - INFO - Fetching rows 2400000 to 2450000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2400000
+2025-08-18 20:36:28,931 - INFO - Fetching rows 2450000 to 2500000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2450000
+2025-08-18 20:36:33,434 - INFO - Fetching rows 2500000 to 2550000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2500000
+2025-08-18 20:36:37,561 - INFO - Fetching rows 2550000 to 2600000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2550000
+2025-08-18 20:36:43,024 - INFO - Fetching rows 2600000 to 2650000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2600000
+2025-08-18 20:36:47,236 - INFO - Fetching rows 2650000 to 2700000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2650000
+2025-08-18 20:36:51,377 - INFO - Fetching rows 2700000 to 2750000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2700000
+2025-08-18 20:36:55,493 - INFO - Fetching rows 2750000 to 2800000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2750000
+2025-08-18 20:36:59,181 - INFO - Fetching rows 2800000 to 2850000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2800000
+2025-08-18 20:37:03,456 - INFO - Fetching rows 2850000 to 2900000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2850000
+2025-08-18 20:37:07,454 - INFO - Fetching rows 2900000 to 2950000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2900000
+2025-08-18 20:37:11,658 - INFO - Fetching rows 2950000 to 3000000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=2950000
+2025-08-18 20:37:15,572 - INFO - Fetching rows 3000000 to 3050000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3000000
+2025-08-18 20:37:20,340 - INFO - Fetching rows 3050000 to 3100000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3050000
+2025-08-18 20:37:25,008 - INFO - Fetching rows 3100000 to 3150000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3100000
+2025-08-18 20:37:30,105 - INFO - Fetching rows 3150000 to 3200000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3150000
+2025-08-18 20:37:35,596 - INFO - Fetching rows 3200000 to 3250000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3200000
+2025-08-18 20:37:40,287 - INFO - Fetching rows 3250000 to 3300000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3250000
+2025-08-18 20:37:45,138 - INFO - Fetching rows 3300000 to 3350000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3300000
+2025-08-18 20:37:51,129 - INFO - Fetching rows 3350000 to 3400000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3350000
+2025-08-18 20:37:56,002 - INFO - Fetching rows 3400000 to 3450000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3400000
+2025-08-18 20:38:03,909 - INFO - Fetching rows 3450000 to 3500000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3450000
+2025-08-18 20:38:10,658 - INFO - Fetching rows 3500000 to 3550000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3500000
+2025-08-18 20:38:15,632 - INFO - Fetching rows 3550000 to 3600000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3550000
+2025-08-18 20:38:21,808 - INFO - Fetching rows 3600000 to 3650000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3600000
+2025-08-18 20:38:27,756 - INFO - Fetching rows 3650000 to 3700000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3650000
+2025-08-18 20:38:32,745 - INFO - Fetching rows 3700000 to 3750000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3700000
+2025-08-18 20:38:38,120 - INFO - Fetching rows 3750000 to 3800000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3750000
+2025-08-18 20:38:43,133 - INFO - Fetching rows 3800000 to 3850000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3800000
+2025-08-18 20:38:49,028 - INFO - Fetching rows 3850000 to 3900000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3850000
+2025-08-18 20:38:56,844 - INFO - Fetching rows 3900000 to 3950000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3900000
+2025-08-18 20:39:02,037 - INFO - Fetching rows 3950000 to 4000000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=3950000
+2025-08-18 20:39:08,338 - INFO - Fetching rows 4000000 to 4050000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4000000
+2025-08-18 20:39:13,990 - INFO - Fetching rows 4050000 to 4100000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4050000
+2025-08-18 20:39:20,378 - INFO - Fetching rows 4100000 to 4150000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4100000
+2025-08-18 20:39:26,759 - INFO - Fetching rows 4150000 to 4200000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4150000
+2025-08-18 20:39:33,659 - INFO - Fetching rows 4200000 to 4250000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4200000
+2025-08-18 20:39:38,389 - INFO - Fetching rows 4250000 to 4300000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4250000
+2025-08-18 20:39:45,073 - INFO - Fetching rows 4300000 to 4350000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4300000
+2025-08-18 20:39:51,830 - INFO - Fetching rows 4350000 to 4400000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4350000
+2025-08-18 20:39:59,150 - INFO - Fetching rows 4400000 to 4450000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4400000
+2025-08-18 20:40:05,991 - INFO - Fetching rows 4450000 to 4500000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4450000
+2025-08-18 20:40:14,731 - INFO - Fetching rows 4500000 to 4550000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4500000
+2025-08-18 20:40:24,407 - INFO - Fetching rows 4550000 to 4600000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4550000
+2025-08-18 20:40:30,321 - INFO - Fetching rows 4600000 to 4650000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4600000
+2025-08-18 20:40:36,984 - INFO - Fetching rows 4650000 to 4700000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4650000
+2025-08-18 20:40:43,119 - INFO - Fetching rows 4700000 to 4750000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4700000
+2025-08-18 20:40:51,290 - INFO - Fetching rows 4750000 to 4800000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4750000
+2025-08-18 20:40:57,846 - INFO - Fetching rows 4800000 to 4850000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4800000
+2025-08-18 20:41:04,077 - INFO - Fetching rows 4850000 to 4900000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4850000
+2025-08-18 20:41:12,586 - INFO - Fetching rows 4900000 to 4950000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4900000
+2025-08-18 20:41:18,644 - INFO - Fetching rows 4950000 to 5000000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=4950000
+2025-08-18 20:41:27,008 - INFO - Fetching rows 5000000 to 5050000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5000000
+2025-08-18 20:41:34,351 - INFO - Fetching rows 5050000 to 5100000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5050000
+2025-08-18 20:41:40,351 - INFO - Fetching rows 5100000 to 5150000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5100000
+2025-08-18 20:41:46,506 - INFO - Fetching rows 5150000 to 5200000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5150000
+2025-08-18 20:41:53,144 - INFO - Fetching rows 5200000 to 5250000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5200000
+2025-08-18 20:41:58,959 - INFO - Fetching rows 5250000 to 5300000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5250000
+2025-08-18 20:42:04,713 - INFO - Fetching rows 5300000 to 5350000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5300000
+2025-08-18 20:42:11,266 - INFO - Fetching rows 5350000 to 5400000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5350000
+2025-08-18 20:42:19,251 - INFO - Fetching rows 5400000 to 5450000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5400000
+2025-08-18 20:42:25,174 - INFO - Fetching rows 5450000 to 5500000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5450000
+2025-08-18 20:42:31,179 - INFO - Fetching rows 5500000 to 5550000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5500000
+2025-08-18 20:42:37,407 - INFO - Fetching rows 5550000 to 5600000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5550000
+2025-08-18 20:42:44,830 - INFO - Fetching rows 5600000 to 5650000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5600000
+2025-08-18 20:42:53,877 - INFO - Fetching rows 5650000 to 5700000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5650000
+2025-08-18 20:43:02,360 - INFO - Fetching rows 5700000 to 5750000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5700000
+2025-08-18 20:43:10,815 - INFO - Fetching rows 5750000 to 5800000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5750000
+2025-08-18 20:43:17,157 - INFO - Fetching rows 5800000 to 5850000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5800000
+2025-08-18 20:43:24,375 - INFO - Fetching rows 5850000 to 5900000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5850000
+2025-08-18 20:43:30,930 - INFO - Fetching rows 5900000 to 5950000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5900000
+2025-08-18 20:43:39,808 - INFO - Fetching rows 5950000 to 6000000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=5950000
+2025-08-18 20:43:48,372 - INFO - Fetching rows 6000000 to 6050000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=6000000
+2025-08-18 20:43:57,587 - INFO - Fetching rows 6050000 to 6100000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=6050000
+2025-08-18 20:44:07,230 - INFO - Fetching rows 6100000 to 6150000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=6100000
+2025-08-18 20:44:13,300 - INFO - Fetching rows 6150000 to 6200000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=6150000
+2025-08-18 20:44:20,228 - INFO - Fetching rows 6200000 to 6250000 from https://data.cityofnewyork.us/resource/k397-673e.json?$limit=50000&$offset=6200000
+2025-08-18 20:45:55,568 - INFO - Payroll data uploaded to MinIO bucket 'project4' as 'payroll_data.csv'
+2025-08-18 20:46:02,846 - INFO - Downloading job posting CSV from https://data.cityofnewyork.us/resource/kpav-sd4t.csv
+2025-08-18 20:46:06,943 - INFO - Job posting data uploaded to MinIO bucket 'project4' as 'job_posting_data.csv'
+2025-08-18 20:46:06,944 - INFO - Reading file from /workspaces/project-4-NYC-Hiring-Audit/data/Job Posting Analytics New York NY.xls
+2025-08-18 20:46:07,677 - INFO - Lighthouse sheet 'Job Postings Job Titles' uploaded to MinIO bucket 'project4' as 'lighthouse_job_postings_job_titles.csv'
+2025-08-18 20:46:09,860 - INFO - Snowflake connection closed.

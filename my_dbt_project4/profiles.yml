@@ -1,0 +1,13 @@
+my_dbt_project4:
+  outputs:
+    dev:
+      account: WORFRZG-VK57349
+      database: PROJECT4_DB
+      password: YourStrongPasswordForDbtUser
+      role: DBT_ROLE
+      schema: SILVER
+      threads: 1
+      type: snowflake
+      user: DBT_USER
+      warehouse: COMPUTE_WH
+  target: dev
