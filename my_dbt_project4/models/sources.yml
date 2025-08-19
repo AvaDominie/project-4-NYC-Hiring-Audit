@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: BRONZE
+    database: PROJECT4_DB
+    schema: BRONZE
+    tables:
+      - name: PAYROLL_DATA
+        description: "Bronze model for payroll data"
+        columns:
+          - name: AGENCY
+            description: "Agency name"
+          - name: JOB_TITLE
+            description: "Job title of the employee"
+          - name: ANNUAL_SALARY
+            description: "Annual salary of the employee"
+          - name: PAY_BASIS
+            description: "Pay basis (e.g., hourly, salaried)"
+
+      # - name: JOB_POSTING_DATA

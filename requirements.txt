@@ -10,3 +10,4 @@ apache-airflow[cncf.kubernetes,celery,postgres,google,amazon,s3,http,slack,stats
 apache-airflow-providers-cncf-kubernetes 
 apache-airflow-providers-postgres
 polars
+sqlfluff

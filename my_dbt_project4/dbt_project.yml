@@ -18,7 +18,7 @@ models:
   my_dbt_project4:
     silver:
       +materialized: incremental
-      +schema: SILVER
+      
     gold:
       +materialized: incremental
       +schema: GOLD

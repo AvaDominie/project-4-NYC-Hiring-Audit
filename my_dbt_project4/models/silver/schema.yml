@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: SILVER_PAYROLL
+    description: "Silver model for payroll data"
+    columns:
+      - name: AGENCY
+        description: "Agency name"
+        tests:
+          - not_null
+      - name: JOB_TITLE
+        description: "Job title of the employee"
+        tests:
+          - not_null
+      - name: ANNUAL_SALARY
+        description: "Annual salary of the employee"
+        tests:
+          - not_null
+      - name: PAY_BASIS
+        description: "Pay basis (e.g., hourly, salaried)"
+        tests:
+          - not_null
