@@ -11,3 +11,5 @@ apache-airflow-providers-cncf-kubernetes
 apache-airflow-providers-postgres
 polars
 sqlfluff
+rapidfuzz
+fuzzywuzzy

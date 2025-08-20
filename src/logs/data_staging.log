@@ -1660,3 +1660,13 @@
 2025-08-18 20:46:06,944 - INFO - Reading file from /workspaces/project-4-NYC-Hiring-Audit/data/Job Posting Analytics New York NY.xls
 2025-08-18 20:46:07,677 - INFO - Lighthouse sheet 'Job Postings Job Titles' uploaded to MinIO bucket 'project4' as 'lighthouse_job_postings_job_titles.csv'
 2025-08-18 20:46:09,860 - INFO - Snowflake connection closed.
+2025-08-20 15:32:55,768 - INFO - Starting process_payroll_data with nrows=1000
+2025-08-20 15:32:55,770 - INFO - Processing payroll data from DataFrame input.
+2025-08-20 15:32:55,771 - INFO - Payroll DataFrame columns after upper: ['FISCAL_YEAR', 'PAYROLL_NUMBER', 'AGENCY_NAME', 'LAST_NAME', 'FIRST_NAME', 'MID_INIT', 'AGENCY_START_DATE', 'WORK_LOCATION_BOROUGH', 'TITLE_DESCRIPTION', 'LEAVE_STATUS_AS_OF_JUNE_30', 'BASE_SALARY', 'PAY_BASIS', 'REGULAR_HOURS', 'REGULAR_GROSS_PAID', 'OT_HOURS', 'TOTAL_OT_PAID', 'TOTAL_OTHER_PAY']
+2025-08-20 15:32:55,787 - INFO - Finished process_payroll_data. Returning processed DataFrame with shape (1000, 6)
+2025-08-20 15:32:55,789 - INFO - Starting calculate_fuzzy_match for target: ' child protective specialist' with 1000 candidates (use_rapidfuzz=True)
+2025-08-20 15:32:55,806 - INFO - Best match for ' child protective specialist' is 'admin for children's svcs child protective specialist' with ratio 100.00
+2025-08-20 15:32:56,544 - INFO - Starting process_job_postings_data with nrows=1000, match_threshold=85
+2025-08-20 15:32:56,545 - INFO - Reading job postings from: <_io.StringIO object at 0x7c21beb48f70>
+2025-08-20 15:32:56,623 - INFO - Job postings columns: ['job_id', 'agency', 'posting_type', 'number_of_positions', 'business_title', 'civil_service_title', 'title_classification', 'title_code_no', 'level', 'job_category', 'full_time_part_time_indicator', 'career_level', 'salary_range_from', 'salary_range_to', 'salary_frequency', 'work_location', 'division_work_unit', 'job_description', 'minimum_qual_requirements', 'preferred_skills', 'additional_information', 'to_apply', 'hours_shift', 'work_location_1', 'recruitment_contact', 'residency_requirement', 'posting_date', 'post_until', 'posting_updated', 'process_date']
+2025-08-20 15:32:56,624 - ERROR - Error processing 'Posting Date': 'Posting Date'
