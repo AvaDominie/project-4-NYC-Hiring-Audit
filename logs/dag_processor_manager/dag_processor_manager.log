@@ -15163,3 +15163,1570 @@ File Path                                        PID    Runtime      # DAGs    #
 /opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-20T20:55:22
 /opt/airflow/airflow/dags/fuzzy_gold_dag.py                               0           0  0.10s           2025-08-20T20:55:20
 ================================================================================
+[2025-08-20T20:56:22.681+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.22s           2025-08-20T20:56:22
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-20T20:55:54
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               0           0  0.21s           2025-08-20T20:55:52
+================================================================================
+[2025-08-20T20:56:53.804+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.11s           2025-08-20T20:56:53
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-20T20:56:25
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               0           0  0.11s           2025-08-20T20:56:23
+================================================================================
+[2025-08-21T15:10:53.308+0000] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2025-08-21T15:10:53.311+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-08-21T15:10:53.312+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/airflow/dags every 300 seconds
+[2025-08-21T15:10:53.314+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/airflow/dags
+[2025-08-21T15:10:53.472+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/airflow/dags
+[2025-08-21T15:10:53.944+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               0           0  0.21s           2025-08-21T15:10:53
+/opt/airflow/airflow/dags/ingestion_dag.py                                0           0
+/opt/airflow/airflow/dags/transformation_dag.py                           0           0
+================================================================================
+[2025-08-21T15:11:24.945+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  2.52s           2025-08-21T15:10:59
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.51s           2025-08-21T15:10:55
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               0           0  0.11s           2025-08-21T15:11:24
+================================================================================
+[2025-08-21T15:11:55.762+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  2.01s           2025-08-21T15:11:31
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:11:26
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               0           0  0.11s           2025-08-21T15:11:55
+================================================================================
+[2025-08-21T15:12:26.909+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.94s           2025-08-21T15:12:03
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:11:57
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               0           1  0.21s           2025-08-21T15:12:25
+================================================================================
+[2025-08-21T15:12:57.715+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.72s           2025-08-21T15:12:37
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               0           0  1.12s           2025-08-21T15:12:56
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:12:28
+================================================================================
+[2025-08-21T15:13:28.046+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  2.16s           2025-08-21T15:13:10
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               0           0  1.41s           2025-08-21T15:13:12
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:12:58
+================================================================================
+[2025-08-21T15:13:58.925+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  2.12s           2025-08-21T15:13:42
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:13:29
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               0           1  0.21s           2025-08-21T15:13:53
+================================================================================
+[2025-08-21T15:14:29.704+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.92s           2025-08-21T15:14:27
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.82s           2025-08-21T15:14:15
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:14:00
+================================================================================
+[2025-08-21T15:14:59.934+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.68s           2025-08-21T15:14:52
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.63s           2025-08-21T15:14:47
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:14:31
+================================================================================
+[2025-08-21T15:15:30.141+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  2.11s           2025-08-21T15:15:20
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.81s           2025-08-21T15:15:11
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.30s           2025-08-21T15:15:02
+================================================================================
+[2025-08-21T15:15:53.796+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/airflow/dags
+[2025-08-21T15:15:53.908+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/airflow/dags
+[2025-08-21T15:16:01.459+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  2.02s           2025-08-21T15:15:52
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.85s           2025-08-21T15:15:43
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:15:33
+================================================================================
+[2025-08-21T15:17:11.361+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  2.61s           2025-08-21T15:16:25
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.74s           2025-08-21T15:17:11
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:16:04
+================================================================================
+[2025-08-21T15:17:43.970+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  2.61s           2025-08-21T15:16:25
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.74s           2025-08-21T15:17:11
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.41s           2025-08-21T15:17:43
+================================================================================
+[2025-08-21T15:18:15.306+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.63s           2025-08-21T15:17:46
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.41s           2025-08-21T15:17:49
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.30s           2025-08-21T15:18:15
+================================================================================
+[2025-08-21T15:18:45.708+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.61s           2025-08-21T15:18:19
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T15:18:21
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:18:45
+================================================================================
+[2025-08-21T15:19:16.173+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.71s           2025-08-21T15:18:51
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T15:18:53
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:19:16
+================================================================================
+[2025-08-21T15:19:47.102+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.61s           2025-08-21T15:19:23
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.42s           2025-08-21T15:19:26
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:19:47
+================================================================================
+[2025-08-21T15:20:18.015+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.63s           2025-08-21T15:19:56
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.41s           2025-08-21T15:19:58
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.30s           2025-08-21T15:20:18
+================================================================================
+[2025-08-21T15:20:49.030+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.52s           2025-08-21T15:20:28
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.51s           2025-08-21T15:20:30
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.30s           2025-08-21T15:20:49
+================================================================================
+[2025-08-21T15:20:53.883+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/airflow/dags
+[2025-08-21T15:20:53.961+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/airflow/dags
+[2025-08-21T15:21:19.865+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.73s           2025-08-21T15:21:00
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.41s           2025-08-21T15:21:02
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:21:19
+================================================================================
+[2025-08-21T15:21:50.329+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.54s           2025-08-21T15:21:32
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T15:21:34
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.41s           2025-08-21T15:21:50
+================================================================================
+[2025-08-21T15:22:20.771+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.61s           2025-08-21T15:22:04
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.32s           2025-08-21T15:22:06
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:22:20
+================================================================================
+[2025-08-21T15:22:51.504+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.61s           2025-08-21T15:22:36
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T15:22:38
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:22:51
+================================================================================
+[2025-08-21T15:23:23.053+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  2.01s           2025-08-21T15:23:08
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.94s           2025-08-21T15:23:10
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.51s           2025-08-21T15:23:23
+================================================================================
+[2025-08-21T15:23:53.649+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.81s           2025-08-21T15:23:41
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.61s           2025-08-21T15:23:43
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.41s           2025-08-21T15:23:53
+================================================================================
+[2025-08-21T15:24:24.361+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  2.13s           2025-08-21T15:24:14
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.41s           2025-08-21T15:24:16
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.41s           2025-08-21T15:24:24
+================================================================================
+[2025-08-21T15:24:55.357+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  4.27s           2025-08-21T15:24:52
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.93s           2025-08-21T15:24:46
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.41s           2025-08-21T15:24:55
+================================================================================
+[2025-08-21T15:25:26.856+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T15:25:18
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.41s           2025-08-21T15:25:23
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.57s           2025-08-21T15:25:26
+================================================================================
+[2025-08-21T15:25:54.437+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/airflow/dags
+[2025-08-21T15:25:54.534+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/airflow/dags
+[2025-08-21T15:25:57.965+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.72s           2025-08-21T15:25:50
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.41s           2025-08-21T15:25:56
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.51s           2025-08-21T15:25:57
+================================================================================
+[2025-08-21T15:26:28.906+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.61s           2025-08-21T15:26:22
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.48s           2025-08-21T15:26:27
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.51s           2025-08-21T15:26:28
+================================================================================
+[2025-08-21T15:26:59.665+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.61s           2025-08-21T15:26:54
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T15:26:59
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.51s           2025-08-21T15:26:28
+================================================================================
+[2025-08-21T15:27:31.510+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T15:27:26
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.41s           2025-08-21T15:27:31
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.61s           2025-08-21T15:27:00
+================================================================================
+[2025-08-21T15:28:02.993+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.79s           2025-08-21T15:27:58
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.32s           2025-08-21T15:28:02
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:27:32
+================================================================================
+[2025-08-21T15:28:34.874+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.52s           2025-08-21T15:28:30
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.22s           2025-08-21T15:28:34
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:28:03
+================================================================================
+[2025-08-21T15:29:07.082+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.62s           2025-08-21T15:29:02
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T15:29:07
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:28:35
+================================================================================
+[2025-08-21T15:29:38.906+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.52s           2025-08-21T15:29:34
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T15:29:38
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:29:07
+================================================================================
+[2025-08-21T15:30:10.977+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.43s           2025-08-21T15:30:06
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.34s           2025-08-21T15:30:10
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:29:39
+================================================================================
+[2025-08-21T15:30:43.130+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.71s           2025-08-21T15:30:38
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.23s           2025-08-21T15:30:43
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:30:11
+================================================================================
+[2025-08-21T15:30:55.590+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/airflow/dags
+[2025-08-21T15:30:55.695+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/airflow/dags
+[2025-08-21T15:31:15.072+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T15:31:10
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T15:31:15
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.41s           2025-08-21T15:30:44
+================================================================================
+[2025-08-21T15:31:47.122+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T15:31:42
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T15:31:47
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:31:15
+================================================================================
+[2025-08-21T15:32:19.221+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.61s           2025-08-21T15:32:14
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T15:32:19
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:31:47
+================================================================================
+[2025-08-21T15:32:50.999+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.61s           2025-08-21T15:32:46
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.41s           2025-08-21T15:32:50
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:32:19
+================================================================================
+[2025-08-21T15:33:23.228+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T15:33:18
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T15:33:23
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:32:51
+================================================================================
+[2025-08-21T15:33:54.805+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T15:33:50
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.23s           2025-08-21T15:33:54
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:33:24
+================================================================================
+[2025-08-21T15:34:26.728+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.71s           2025-08-21T15:34:21
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T15:34:26
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:33:55
+================================================================================
+[2025-08-21T15:34:58.609+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T15:34:53
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.24s           2025-08-21T15:34:58
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:34:27
+================================================================================
+[2025-08-21T15:35:30.627+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T15:35:25
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.38s           2025-08-21T15:35:30
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.41s           2025-08-21T15:34:59
+================================================================================
+[2025-08-21T15:35:56.296+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/airflow/dags
+[2025-08-21T15:35:56.382+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/airflow/dags
+[2025-08-21T15:36:02.942+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T15:35:57
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.32s           2025-08-21T15:36:02
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:35:31
+================================================================================
+[2025-08-21T15:36:34.796+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T15:36:29
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.32s           2025-08-21T15:36:34
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:36:03
+================================================================================
+[2025-08-21T15:37:06.811+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.79s           2025-08-21T15:37:02
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.22s           2025-08-21T15:37:06
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:36:35
+================================================================================
+[2025-08-21T15:37:38.767+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.53s           2025-08-21T15:37:34
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T15:37:38
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:37:07
+================================================================================
+[2025-08-21T15:38:10.743+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T15:38:06
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T15:38:10
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:37:39
+================================================================================
+[2025-08-21T15:38:42.683+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T15:38:38
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T15:38:42
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:38:11
+================================================================================
+[2025-08-21T15:39:14.716+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T15:39:09
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T15:39:14
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.41s           2025-08-21T15:38:43
+================================================================================
+[2025-08-21T15:39:46.551+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.52s           2025-08-21T15:39:41
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T15:39:46
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:39:15
+================================================================================
+[2025-08-21T15:40:18.581+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T15:40:13
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T15:40:18
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:39:47
+================================================================================
+[2025-08-21T15:40:50.356+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T15:40:45
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T15:40:50
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:40:19
+================================================================================
+[2025-08-21T15:40:56.538+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/airflow/dags
+[2025-08-21T15:40:56.614+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/airflow/dags
+[2025-08-21T15:41:22.664+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T15:41:17
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T15:41:22
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.41s           2025-08-21T15:40:51
+================================================================================
+[2025-08-21T15:41:54.909+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T15:41:49
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T15:41:54
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:41:24
+================================================================================
+[2025-08-21T15:42:26.885+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.74s           2025-08-21T15:42:21
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T15:42:26
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:41:56
+================================================================================
+[2025-08-21T15:42:58.830+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.31s           2025-08-21T15:42:53
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.23s           2025-08-21T15:42:58
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:42:28
+================================================================================
+[2025-08-21T15:43:30.821+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.71s           2025-08-21T15:43:25
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T15:43:30
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:43:00
+================================================================================
+[2025-08-21T15:44:02.643+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T15:43:56
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.22s           2025-08-21T15:44:02
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.30s           2025-08-21T15:43:32
+================================================================================
+[2025-08-21T15:44:34.683+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T15:44:28
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.23s           2025-08-21T15:44:34
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:44:04
+================================================================================
+[2025-08-21T15:45:06.658+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T15:45:00
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.22s           2025-08-21T15:45:06
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:44:36
+================================================================================
+[2025-08-21T15:45:38.474+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T15:45:32
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T15:45:38
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:45:08
+================================================================================
+[2025-08-21T15:45:57.306+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/airflow/dags
+[2025-08-21T15:45:57.398+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/airflow/dags
+[2025-08-21T15:46:10.085+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.68s           2025-08-21T15:46:04
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.23s           2025-08-21T15:46:10
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.30s           2025-08-21T15:45:39
+================================================================================
+[2025-08-21T15:46:42.400+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T15:46:36
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T15:46:42
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.41s           2025-08-21T15:46:11
+================================================================================
+[2025-08-21T15:47:14.187+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T15:47:08
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T15:47:14
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:46:43
+================================================================================
+[2025-08-21T15:47:46.083+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T15:47:40
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T15:47:46
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.30s           2025-08-21T15:47:15
+================================================================================
+[2025-08-21T15:48:18.231+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.71s           2025-08-21T15:48:12
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T15:48:18
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.30s           2025-08-21T15:47:47
+================================================================================
+[2025-08-21T15:48:50.360+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.71s           2025-08-21T15:48:44
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T15:48:50
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.30s           2025-08-21T15:48:19
+================================================================================
+[2025-08-21T15:49:22.428+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.41s           2025-08-21T15:49:22
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T15:49:16
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:48:51
+================================================================================
+[2025-08-21T15:49:53.973+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T15:49:47
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T15:49:53
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.30s           2025-08-21T15:49:23
+================================================================================
+[2025-08-21T15:50:25.545+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T15:50:19
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.12s           2025-08-21T15:50:25
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.30s           2025-08-21T15:49:55
+================================================================================
+[2025-08-21T15:50:57.605+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T15:50:51
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T15:50:57
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.30s           2025-08-21T15:50:27
+================================================================================
+[2025-08-21T15:50:58.790+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/airflow/dags
+[2025-08-21T15:50:58.858+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/airflow/dags
+[2025-08-21T15:51:29.524+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T15:51:23
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T15:51:29
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:50:59
+================================================================================
+[2025-08-21T15:52:01.463+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T15:51:55
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T15:52:01
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:51:31
+================================================================================
+[2025-08-21T15:52:33.151+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.31s           2025-08-21T15:52:27
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T15:52:33
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.30s           2025-08-21T15:52:02
+================================================================================
+[2025-08-21T15:53:05.141+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T15:52:59
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T15:53:05
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:52:34
+================================================================================
+[2025-08-21T15:53:37.267+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T15:53:31
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.39s           2025-08-21T15:53:37
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.30s           2025-08-21T15:53:06
+================================================================================
+[2025-08-21T15:54:09.050+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.33s           2025-08-21T15:54:03
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T15:54:09
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:53:38
+================================================================================
+[2025-08-21T15:54:41.484+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  2.62s           2025-08-21T15:54:35
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.72s           2025-08-21T15:54:41
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:54:10
+================================================================================
+[2025-08-21T15:55:13.111+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.70s           2025-08-21T15:55:08
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.51s           2025-08-21T15:55:13
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.41s           2025-08-21T15:54:43
+================================================================================
+[2025-08-21T15:55:44.989+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.52s           2025-08-21T15:55:40
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.41s           2025-08-21T15:55:44
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:55:13
+================================================================================
+[2025-08-21T15:55:59.240+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/airflow/dags
+[2025-08-21T15:55:59.308+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/airflow/dags
+[2025-08-21T15:56:17.877+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  3.47s           2025-08-21T15:56:13
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  2.72s           2025-08-21T15:56:17
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:55:45
+================================================================================
+[2025-08-21T15:56:49.750+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.82s           2025-08-21T15:56:45
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.51s           2025-08-21T15:56:49
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.41s           2025-08-21T15:56:19
+================================================================================
+[2025-08-21T15:57:21.815+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.72s           2025-08-21T15:57:18
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.41s           2025-08-21T15:57:21
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.41s           2025-08-21T15:56:51
+================================================================================
+[2025-08-21T15:57:54.010+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.61s           2025-08-21T15:57:50
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.51s           2025-08-21T15:57:54
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:57:23
+================================================================================
+[2025-08-21T15:58:25.913+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.72s           2025-08-21T15:58:22
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T15:58:25
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.41s           2025-08-21T15:57:55
+================================================================================
+[2025-08-21T15:59:01.005+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  3.66s           2025-08-21T15:59:01
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  2.82s           2025-08-21T15:58:55
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T15:58:27
+================================================================================
+[2025-08-21T15:59:33.886+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  3.47s           2025-08-21T15:59:29
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  2.13s           2025-08-21T15:59:33
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.62s           2025-08-21T15:59:02
+================================================================================
+[2025-08-21T16:00:05.662+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.61s           2025-08-21T16:00:00
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T16:00:05
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.42s           2025-08-21T15:59:34
+================================================================================
+[2025-08-21T16:00:37.678+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.71s           2025-08-21T16:00:33
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T16:00:37
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:00:06
+================================================================================
+[2025-08-21T16:00:59.378+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/airflow/dags
+[2025-08-21T16:00:59.483+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/airflow/dags
+[2025-08-21T16:01:10.055+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.74s           2025-08-21T16:01:05
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.38s           2025-08-21T16:01:10
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:00:38
+================================================================================
+[2025-08-21T16:01:42.017+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.71s           2025-08-21T16:01:37
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.32s           2025-08-21T16:01:42
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:01:10
+================================================================================
+[2025-08-21T16:02:14.358+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.79s           2025-08-21T16:02:09
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.23s           2025-08-21T16:02:14
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:01:43
+================================================================================
+[2025-08-21T16:02:46.245+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.52s           2025-08-21T16:02:41
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T16:02:46
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:02:15
+================================================================================
+[2025-08-21T16:03:18.275+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.62s           2025-08-21T16:03:13
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T16:03:18
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:02:47
+================================================================================
+[2025-08-21T16:03:50.453+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.61s           2025-08-21T16:03:45
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T16:03:50
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:03:19
+================================================================================
+[2025-08-21T16:04:21.802+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  2.12s           2025-08-21T16:04:18
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T16:04:21
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.30s           2025-08-21T16:03:51
+================================================================================
+[2025-08-21T16:04:53.824+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.53s           2025-08-21T16:04:50
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T16:04:53
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:04:23
+================================================================================
+[2025-08-21T16:05:25.731+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T16:05:22
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T16:05:25
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:04:55
+================================================================================
+[2025-08-21T16:05:57.534+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T16:05:53
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.41s           2025-08-21T16:05:57
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:05:27
+================================================================================
+[2025-08-21T16:06:00.122+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/airflow/dags
+[2025-08-21T16:06:00.223+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/airflow/dags
+[2025-08-21T16:06:29.514+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.61s           2025-08-21T16:06:25
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.33s           2025-08-21T16:06:29
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:05:58
+================================================================================
+[2025-08-21T16:07:01.050+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T16:06:57
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T16:07:01
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:06:30
+================================================================================
+[2025-08-21T16:07:33.357+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.61s           2025-08-21T16:07:29
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.41s           2025-08-21T16:07:33
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:07:02
+================================================================================
+[2025-08-21T16:08:05.235+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.53s           2025-08-21T16:08:01
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.33s           2025-08-21T16:08:05
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:07:34
+================================================================================
+[2025-08-21T16:08:37.166+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.71s           2025-08-21T16:08:33
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T16:08:37
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:08:06
+================================================================================
+[2025-08-21T16:09:09.102+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.53s           2025-08-21T16:09:05
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T16:09:09
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:08:38
+================================================================================
+[2025-08-21T16:09:40.999+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.43s           2025-08-21T16:09:37
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T16:09:40
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:09:10
+================================================================================
+[2025-08-21T16:10:13.261+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.68s           2025-08-21T16:10:13
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T16:10:09
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:09:42
+================================================================================
+[2025-08-21T16:10:45.003+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T16:10:41
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.32s           2025-08-21T16:10:45
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:10:14
+================================================================================
+[2025-08-21T16:11:00.150+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/airflow/dags
+[2025-08-21T16:11:00.237+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/airflow/dags
+[2025-08-21T16:11:17.006+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.89s           2025-08-21T16:11:13
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.22s           2025-08-21T16:11:17
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:10:45
+================================================================================
+[2025-08-21T16:11:48.794+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.72s           2025-08-21T16:11:45
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T16:11:48
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:11:18
+================================================================================
+[2025-08-21T16:12:20.094+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T16:12:17
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.23s           2025-08-21T16:12:20
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:11:50
+================================================================================
+[2025-08-21T16:12:51.923+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.44s           2025-08-21T16:12:49
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T16:12:51
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.30s           2025-08-21T16:12:21
+================================================================================
+[2025-08-21T16:13:23.829+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.44s           2025-08-21T16:13:21
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.42s           2025-08-21T16:13:23
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:12:53
+================================================================================
+[2025-08-21T16:13:55.911+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.63s           2025-08-21T16:13:53
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.41s           2025-08-21T16:13:55
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:13:25
+================================================================================
+[2025-08-21T16:14:27.674+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T16:14:25
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.22s           2025-08-21T16:14:27
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:13:57
+================================================================================
+[2025-08-21T16:14:59.527+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T16:14:57
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T16:14:59
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:14:29
+================================================================================
+[2025-08-21T16:15:31.496+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T16:15:28
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T16:15:31
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.30s           2025-08-21T16:15:00
+================================================================================
+[2025-08-21T16:16:01.840+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/airflow/dags
+[2025-08-21T16:16:01.943+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/airflow/dags
+[2025-08-21T16:16:03.444+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T16:16:00
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.41s           2025-08-21T16:16:03
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:15:32
+================================================================================
+[2025-08-21T16:16:35.131+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T16:16:32
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T16:16:35
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:16:04
+================================================================================
+[2025-08-21T16:17:06.944+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.54s           2025-08-21T16:17:04
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.41s           2025-08-21T16:17:06
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:16:36
+================================================================================
+[2025-08-21T16:17:38.518+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T16:17:36
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.22s           2025-08-21T16:17:38
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:17:08
+================================================================================
+[2025-08-21T16:18:10.383+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T16:18:07
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T16:18:10
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:17:39
+================================================================================
+[2025-08-21T16:18:42.543+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.61s           2025-08-21T16:18:39
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.33s           2025-08-21T16:18:42
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:18:11
+================================================================================
+[2025-08-21T16:19:14.577+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.61s           2025-08-21T16:19:12
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T16:19:14
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.41s           2025-08-21T16:18:44
+================================================================================
+[2025-08-21T16:19:47.320+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.82s           2025-08-21T16:19:44
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.54s           2025-08-21T16:19:47
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:19:16
+================================================================================
+[2025-08-21T16:20:19.074+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.70s           2025-08-21T16:20:16
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.33s           2025-08-21T16:20:19
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:19:48
+================================================================================
+[2025-08-21T16:20:51.183+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.61s           2025-08-21T16:20:51
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.53s           2025-08-21T16:20:48
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:20:20
+================================================================================
+[2025-08-21T16:21:02.049+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/airflow/dags
+[2025-08-21T16:21:02.142+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/airflow/dags
+[2025-08-21T16:21:22.734+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T16:21:20
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.32s           2025-08-21T16:21:22
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:20:52
+================================================================================
+[2025-08-21T16:21:55.216+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.82s           2025-08-21T16:21:52
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.41s           2025-08-21T16:21:55
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:21:23
+================================================================================
+[2025-08-21T16:22:27.061+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.61s           2025-08-21T16:22:24
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T16:22:27
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:21:56
+================================================================================
+[2025-08-21T16:22:59.457+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.91s           2025-08-21T16:22:56
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T16:22:59
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:22:28
+================================================================================
+[2025-08-21T16:23:31.959+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.81s           2025-08-21T16:23:28
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.71s           2025-08-21T16:23:31
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:23:00
+================================================================================
+[2025-08-21T16:24:03.935+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.71s           2025-08-21T16:24:01
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.51s           2025-08-21T16:24:03
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:23:33
+================================================================================
+[2025-08-21T16:24:35.692+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.52s           2025-08-21T16:24:33
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.33s           2025-08-21T16:24:35
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:24:05
+================================================================================
+[2025-08-21T16:25:07.286+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T16:25:04
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T16:25:07
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:24:37
+================================================================================
+[2025-08-21T16:25:39.477+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.61s           2025-08-21T16:25:36
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T16:25:39
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:25:08
+================================================================================
+[2025-08-21T16:26:02.189+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/airflow/dags
+[2025-08-21T16:26:02.276+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/airflow/dags
+[2025-08-21T16:26:11.459+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.53s           2025-08-21T16:26:08
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T16:26:11
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:25:40
+================================================================================
+[2025-08-21T16:26:43.221+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T16:26:40
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T16:26:43
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:26:12
+================================================================================
+[2025-08-21T16:27:14.884+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.51s           2025-08-21T16:27:12
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.21s           2025-08-21T16:27:14
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:26:44
+================================================================================
+[2025-08-21T16:27:47.144+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.94s           2025-08-21T16:27:44
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T16:27:47
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:27:16
+================================================================================
+[2025-08-21T16:28:18.974+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.62s           2025-08-21T16:28:16
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.40s           2025-08-21T16:28:18
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:27:48
+================================================================================
+[2025-08-21T16:28:50.954+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.42s           2025-08-21T16:28:50
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.41s           2025-08-21T16:28:48
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:28:20
+================================================================================
+[2025-08-21T16:29:22.778+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.61s           2025-08-21T16:29:20
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.32s           2025-08-21T16:29:22
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:28:52
+================================================================================
+[2025-08-21T16:29:54.611+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.52s           2025-08-21T16:29:52
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.31s           2025-08-21T16:29:54
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:29:24
+================================================================================
+[2025-08-21T16:30:27.306+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.82s           2025-08-21T16:30:24
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.72s           2025-08-21T16:30:27
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.31s           2025-08-21T16:29:56
+================================================================================
+[2025-08-21T16:30:59.761+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/airflow/dags/ingestion_dag.py                                1           0  1.71s           2025-08-21T16:30:56
+/opt/airflow/airflow/dags/fuzzy_gold_dag.py                               1           0  1.63s           2025-08-21T16:30:59
+/opt/airflow/airflow/dags/transformation_dag.py                           1           0  0.41s           2025-08-21T16:30:28
+================================================================================
+[2025-08-21T16:31:02.971+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/airflow/dags
+[2025-08-21T16:31:03.056+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/airflow/dags
